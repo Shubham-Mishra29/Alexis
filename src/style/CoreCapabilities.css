@@ -1,0 +1,211 @@
+.corecapabilities{
+    width: 100%;
+    height: 658px;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corecapabilities .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 83%;
+    height: 550px;
+}
+
+.corecapabilities .main .top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 55px;   
+    position: relative;
+    top: 30px;
+}
+
+.corecapabilities .main .top .heading{
+    width: 313px;
+    height: 38px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+    
+    letter-spacing: 0.02em;
+    
+    /* text-color */
+    
+    color: #252B42;   
+}
+
+.corecapabilities .main .top .bar{
+    width: 94px;
+    height: 3px;    
+    /* Primary */
+    
+    background: #4D0043;   
+}
+
+
+.corecapabilities .main .bottom{
+    /* background-color: black; */
+    background-color: #F5F5F5;;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.corecapabilities .main .bottom .col{
+    height: 100%;
+    /* background-color: red; */
+    width: 34%;
+    /* width: 390px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.corecapabilities .main .bottom .col .box{
+    width: 100%;
+    /* height: 80px; */
+    height: 20%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Left */
+
+.corecapabilities .main .bottom .col .box .iconleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #EBEBEB;
+}
+
+.corecapabilities .main .bottom .col .box .iconleft:hover{
+    background: #5772FF;
+}
+
+.corecapabilities .main .bottom .col .box .iconleft:hover .maintenance{
+    fill: #FFFFFF;
+}
+
+.corecapabilities .main .bottom .col .box .contentleft{
+    height: 80%;
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.corecapabilities .main .bottom .col .box .contentleft .headingleft{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    /* text */
+
+    color: #272C35;
+}
+
+.corecapabilities .main .bottom .col .box .contentleft .textleft{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+
+    /* caption */
+
+    color: #898B92;
+}
+
+/* Right */
+
+.corecapabilities .main .bottom .col .box .iconright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #EBEBEB;
+}
+
+.corecapabilities .main .bottom .col .box .iconright:hover{
+    background: #5772FF;
+}
+
+.corecapabilities .main .bottom .col .box .iconright:hover .maintenance{
+    fill: #FFFFFF;
+}
+
+.corecapabilities .main .bottom .col .box .contentright{
+    height: 80%;
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.corecapabilities .main .bottom .col .box .contentright .headingright{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-align: right;
+
+    /* text */
+
+    color: #272C35;
+}
+
+.corecapabilities .main .bottom .col .box .contentright .textright{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+
+    /* caption */
+
+    color: #898B92;
+}
+
+/* ellipse image */
+.corecapabilities .main .bottom .col2{
+    /* width: 26.6%; */
+    position: relative;
+    top: 0%;
+    width: 336px;
+    height: 100%;
+    background: url('../assests/Ellipse.png');
+    background-repeat: no-repeat;
+    
+}

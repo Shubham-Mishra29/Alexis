@@ -1,0 +1,58 @@
+.clients{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients .main{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clients .main .top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 55px;   
+}
+
+.clients .main .top .heading{
+    width: 381px;
+    height: 38px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+    
+    letter-spacing: 0.02em;
+    
+    /* text */
+    
+    color: #272C35;  
+}
+
+.clients .main .top .bar{
+    width: 94px;
+    height: 3px;    
+    /* Primary */
+    
+    background: #4D0043;   
+}
+
+.clients .main .bottom{
+    width: 100%;
+    height: 58%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

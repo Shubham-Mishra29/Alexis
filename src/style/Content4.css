@@ -1,0 +1,125 @@
+.content4{
+    width: 100%;
+    height: 521px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    
+}
+
+
+.content4 .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: black; */
+    height: 318px;
+    width: 1212px;
+    /* flex-wrap: wrap; */
+}
+
+.content4 .main .box{
+    height: 100%;
+    background: #F5F5F5;
+    width: 384px;
+    position: relative;
+    transition: 0.2s ease-in;
+}
+
+.content4 .main .box:hover{
+    background: #5772FF;
+}
+
+
+.content4 .main .box1 .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    /* position: absolute; */
+    position: absolute;
+    left: -4px;
+    top: 36px;    
+}
+.content4 .main .box2 .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 58%;
+    /* position: absolute; */
+    position: absolute;
+    left: -4px;
+    top: 36px;    
+}
+.content4 .main .box3 .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    /* position: absolute; */
+    position: absolute;
+    left: -4px;
+    top: 36px;    
+}
+
+/* Arrow */
+.content4 .main .box .top .fa-play{
+/* position: absolute; */
+width: 26px;
+height: 22px;
+/* left: -4px;
+top: 36px; */
+color: white;
+/* width: 100%; */
+}
+
+/* Heading of the boxes */
+.content4 .main .box .top .heading{
+    color: #4D0043;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    top: 6px;
+}
+
+.content4 .main .box:hover .top .heading{
+    color: white;
+}
+
+/* Content of the boxes */
+.content4 .main .box .bottom{
+    position: absolute;
+    width: 329px;
+    height: 214px;
+    left: 29px;
+    top: 87px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    
+    
+    /* caption */
+    
+    color: #898B92;    
+}
+
+.content4 .main .box:hover .bottom{
+    color: white;
+}
+
+/* .content4 .main .box .fa-play{
+position: absolute;
+width: 26px;
+height: 22px;
+left: -4px;
+top: 36px;
+color: white;
+} */

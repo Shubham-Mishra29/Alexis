@@ -1,0 +1,170 @@
+.additionalservices{
+    width: 100%;
+    height: 658px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.additionalservices .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 83%;
+    height: 460px;   
+}
+
+.additionalservices .main .top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 55px;   
+    position: relative;
+    top: 10px;
+}
+
+.additionalservices .main .top .heading{
+    width: 373px;
+    height: 38px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+    
+    letter-spacing: 0.02em;
+    
+    /* text-color */
+    
+    color: #252B42;   
+}
+
+.additionalservices .main .top .bar{
+    width: 94px;
+    height: 3px;    
+    /* Primary */
+    
+    background: #4D0043;   
+}
+
+.additionalservices .main .bottom{
+    width: 100%;
+    /* height: 380px; */
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.additionalservices .main .bottom .flexrow{
+    width: 100%;
+    height: 148px;
+    /* height: 176px; */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.additionalservices .main .bottom .flexrow .box{
+    width: 384px;
+    height: 100%;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+}
+
+.additionalservices .main .bottom .flexrow .box .left{
+    position: relative;
+    left: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 72%;
+}
+
+.additionalservices .main .bottom .flexrow .box2 .left{
+    position: relative;
+    left: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.additionalservices .main .bottom .flexrow .box6 .left{
+    position: relative;
+    left: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.additionalservices .main .bottom .flexrow .box .left .services{
+    width: 235px;
+    height: 34px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+    
+    text-transform: uppercase;
+    /* Primary */
+    z-index: 2;
+    color: #4D0043;    
+}
+
+.additionalservices .main .bottom .flexrow .box2 .left .services{
+    width: 259px;
+    height: 34px;
+    position: absolute;
+    left: 52px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+    
+    
+    /* Primary */
+    z-index: 2;
+    color: #4D0043;    
+}
+
+.additionalservices .main .bottom .flexrow .box6 .left .services{
+    width: 332px;
+    height: 34px;
+    position: absolute;
+    left: 40px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+    
+    
+    /* Primary */
+    z-index: 2;
+    color: #4D0043;    
+}
+
+.additionalservices .main .bottom .flexrow .box .left .fa-play{
+    color: white;
+}
+
+.additionalservices .main .bottom .flexrow .box .right{
+    position: relative;
+    bottom: -24px;
+    left: -16px;
+}
