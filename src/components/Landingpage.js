@@ -1,5 +1,6 @@
 import React from 'react'
 import AdditionalServices from './AdditionalServices';
+import BackToTopButton from './BackToTopButton';
 import Carousel from "./Carousel";
 import Clients from './Clients';
 import Content4 from './Content4';
@@ -26,6 +27,7 @@ const Landingpage = () => {
       <Clients/>
       <Map/>
       <Footer/>
+      <BackToTopButton/>
     </div>
   )
 }

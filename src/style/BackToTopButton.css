@@ -1,0 +1,13 @@
+.toTop{
+    position : fixed;
+    bottom : 50px;
+    right : 50px;
+    height : 40px;
+    width : 40px;
+    font-size : 50px;
+    background-color : #5772FF;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    border : 0;
+}

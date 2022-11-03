@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/WhoWeAre.css";
-
 import Group from "../assests/Group.png";
 
 const WhoWeAre = () => {
@@ -33,6 +32,7 @@ const WhoWeAre = () => {
         <div className="rightside">
           <img src={Group} alt="" />
         </div>
+
       </div>
     </>
   );
