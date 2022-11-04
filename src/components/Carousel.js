@@ -68,20 +68,21 @@ function Carousel({ images }) {
                       {/* Links */}
 
                       <li>
-                        <a href="">Home</a>
-                      </li>
-                      <li>
-                        <a href="">Features</a>
+                        <a href="/">Home</a>
                       </li>
                       {/* <li><a href="">Services</a></li> */}
                       <li>
                         <Link to="/services">Services </Link>
                       </li>
+
                       <li>
-                        <a href="">Careers</a>
+                        <Link to="/gallery">Gallery </Link>
                       </li>
                       <li>
                         <a href="">Blog</a>
+                      </li>                      
+                      <li>
+                        <a href="">Careers</a>
                       </li>
                       <li>
                         <a href="">ContactUs</a>

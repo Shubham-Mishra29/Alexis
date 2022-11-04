@@ -1,7 +1,10 @@
 import "./App.css";
-import Landingpage from "./components/Landingpage";
-import { Routes, Route} from "react-router-dom";
-import Services from "./components/Services";
+import Landingpage from "./components/LandingPage/Landingpage";
+import { Routes, Route} from "react-router-dom"
+import Services from "./components/Services/Services";
+import Gallery from "./components/Gallery/Gallery";
+
+
 
 function App() {
   return (
@@ -10,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landingpage/>} />
         <Route path="/services" element={<Services/>} />
+        <Route path="/gallery" element={<Gallery/>} />
       </Routes>
 
     </div>
