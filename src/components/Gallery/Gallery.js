@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Footer';
 import Template from '../Template';
 import WSPGallery from '../WSPGallery';
+import BackToTopButton from '../BackToTopButton';
 import './Gallery.css';
 
 import img1 from '../../assests/Gallery Image 1.jpg'
@@ -53,9 +54,8 @@ const Gallery = () => {
             <WSPGallery galleryImages={galleryImages}/>
             </div>
         </div>
-                
-              
         <Footer/>
+        <BackToTopButton/>
     </div>
   )
 }

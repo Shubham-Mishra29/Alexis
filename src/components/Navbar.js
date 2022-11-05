@@ -4,7 +4,7 @@ import { useState } from "react";
 import logo from "../assests/logo.png";
 import icon from "../assests/icon.png";
 import phn from "../assests/phn.png";
-import { Link } from "react-router-dom";
+import {NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -32,15 +32,15 @@ const Navbar = () => {
                       {/* Links */}
 
                       <li>
-                        <a href="/">Home</a>
+                      <NavLink exact to="/">Home</NavLink>
                       </li>
                       {/* <li><a href="">Services</a></li> */}
                       <li>
-                        <Link to="/services">Services </Link>
+                        <NavLink to="/services">Services </NavLink>
                       </li>
 
                       <li>
-                        <Link to="/gallery">Gallery </Link>
+                        <NavLink to="/gallery">Gallery </NavLink>
                       </li>
                       <li>
                         <a href="">Blog</a>
@@ -49,7 +49,7 @@ const Navbar = () => {
                         <a href="">Careers</a>
                       </li>
                       <li>
-                        <a href="">ContactUs</a>
+                      <NavLink to="/contactus">ContactUs </NavLink>
                       </li>
 
                       <div className="phn">

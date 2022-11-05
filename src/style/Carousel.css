@@ -103,7 +103,11 @@
   list-style: none;
 }
 
-.outer .inner li:nth-child(1) a{
+/* .outer .inner li:nth-child(1) a{
+  color: #5772FF;
+} */
+
+.outer .inner a.active{
   color: #5772FF;
 }
 

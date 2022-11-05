@@ -8,7 +8,7 @@ import facebook from "../assests/facebook.png";
 import twitter from "../assests/twitter.png";
 import instagram from "../assests/instagram.png";
 import whatsapp from "../assests/whatsapp.png";
-import { Link } from "react-router-dom";
+import {NavLink } from "react-router-dom";
 function Carousel({ images }) {
   const [current, setCurrent] = useState(0);
   const [autoPlay, setAutoPlay] = useState(true);
@@ -68,15 +68,15 @@ function Carousel({ images }) {
                       {/* Links */}
 
                       <li>
-                        <a href="/">Home</a>
+                      <NavLink exact to="/">Home</NavLink>
                       </li>
                       {/* <li><a href="">Services</a></li> */}
                       <li>
-                        <Link to="/services">Services </Link>
+                        <NavLink to="/services">Services </NavLink>
                       </li>
 
                       <li>
-                        <Link to="/gallery">Gallery </Link>
+                        <NavLink to="/gallery">Gallery </NavLink>
                       </li>
                       <li>
                         <a href="">Blog</a>
@@ -85,7 +85,7 @@ function Carousel({ images }) {
                         <a href="">Careers</a>
                       </li>
                       <li>
-                        <a href="">ContactUs</a>
+                      <NavLink to="/contactus">ContactUs </NavLink>
                       </li>
 
                       <div className="phn">
