@@ -32,7 +32,7 @@ const Navbar = () => {
                       {/* Links */}
 
                       <li>
-                      <NavLink exact to="/">Home</NavLink>
+                      <NavLink to="/">Home</NavLink>
                       </li>
                       {/* <li><a href="">Services</a></li> */}
                       <li>
