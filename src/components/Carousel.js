@@ -9,6 +9,7 @@ import twitter from "../assests/twitter.png";
 import instagram from "../assests/instagram.png";
 import whatsapp from "../assests/whatsapp.png";
 import {NavLink } from "react-router-dom";
+import React from "react";
 function Carousel({ images }) {
   const [current, setCurrent] = useState(0);
   const [autoPlay, setAutoPlay] = useState(true);
