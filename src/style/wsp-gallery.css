@@ -44,6 +44,7 @@
   opacity: 0.6;
   color: #fff;
   z-index: 9999;
+  background-color: transparent;
 }
 
 .btnNext:hover, .btnPrev:hover, .btnClose:hover {

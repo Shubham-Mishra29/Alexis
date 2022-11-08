@@ -44,6 +44,7 @@ const WSPGallery = ({galleryImages}) => {
       {openModal && 
         <div className='sliderWrap'>
           {/* <FontAwesomeIcon icon={faCircleXmark} className='btnClose' onClick={handleCloseModal}  /> */}
+          <button className='btnClose' onClick={handleCloseModal}> X </button>
           {/* <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev' onClick={prevSlide} /> */}
           {/* <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextSlide} /> */}
           <div className='fullScreenImage'>
