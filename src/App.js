@@ -4,7 +4,6 @@ import { Routes, Route} from "react-router-dom"
 import Services from "./components/Services/Services";
 import Gallery from "./components/Gallery/Gallery";
 import ContactUs from "./components/ContactUs/ContactUs";
-import React from "react";
 
 function App() {
   return (
