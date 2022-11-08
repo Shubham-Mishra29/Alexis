@@ -66,6 +66,7 @@
 .dropmessage .main .bottom .nameandemail{
     /* width: 80%; */
     width: 71.6rem;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -207,4 +208,28 @@ input ::placeholder, ::placeholder{
 .email::placeholder{
     width: 59px;
     height: 22px;
+}
+
+/* Responsive  */
+
+@media screen and (max-width : 650px){
+    .dropmessage .main{
+        /* width: 30%; */
+        height: 65rem;
+    }
+
+    .dropmessage .main .bottom{
+        height: 50rem;
+    }
+
+    .dropmessage .main .bottom .nameandemail{
+        flex-direction: column;
+        height: 15rem;
+        justify-content: space-between;
+    }
+
+    .dropmessage .main .bottom .messageText{
+        width: 100%;
+        /* width: 40rem; */
+    }
 }

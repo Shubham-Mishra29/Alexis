@@ -1,7 +1,8 @@
 /* Carousel */
 .carousel{
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
+  height: 86.6rem;
   width: 100%;
   /* max-width: 800px; */
 }
@@ -45,7 +46,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   display: flex;
-  padding: 40px 30px;
+  padding: 4rem 3rem;
   /* align-items: flex-end; */
 }
 
@@ -60,7 +61,7 @@
   top: 0%;
   left: 0%;
   flex-wrap: wrap;
-  height: 120px;  
+  height: 12rem;  
 }
 
 .nav_colorChange{
@@ -72,7 +73,7 @@
   top: 0%;
   left: 0%;
   flex-wrap: wrap;
-  height: 120px;
+  height: 12rem;
   background-color: black;
   z-index: 3;
   /* transition: 1s ease-in-out; */
@@ -88,7 +89,11 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+}
+
+.outer .companylogo{
+  max-width: 100%;
 }
 
 .outer .inner{
@@ -96,7 +101,7 @@
   align-items: center;
   justify-content: space-between;  
   width: 50%;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .outer .inner li{
@@ -114,9 +119,9 @@
 .outer .inner li a{
   text-decoration: none;
   font-family: Lato;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 700;
-  line-height: 22px;
+  line-height: 2.2rem;
   color: #FFFFFF;
 }
 
@@ -124,7 +129,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 165px;
+  width: 16.5rem;
   cursor: pointer;
 }
 
@@ -132,7 +137,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 120%;
   color: #5772FF;
   text-decoration: none;
@@ -146,14 +151,14 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 208px;
-  padding: 16px;
-  border: 2px solid #FFFFFF;
-  border-radius: 45px;
+  width: 20.8rem;
+  padding: 1.6rem;
+  border: .2rem solid #FFFFFF;
+  border-radius: 4.5rem;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 120%;
   text-decoration: none;
   color: #FFFFFF;
@@ -183,13 +188,13 @@
 }
 
 .card_heading{
-  width: 1083px;
-  height: 141px;
+  width: 108.3rem;
+  height: 14.1rem;
   
   font-family: 'Lato';
   font-style: normal;
   font-weight: 800;
-  font-size: 72px;
+  font-size: 7.2rem;
   line-height: 110%;
   /* or 79px */
   
@@ -199,15 +204,15 @@
 }
 
 .card_subHeading{
-  width: 630px;
-  height: 38px;
+  width: 63rem;
+  height: 3.8rem;
   
   /* Headline/Headline 3 */
   
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 3.2rem;
   line-height: 120%;
   /* or 38px */
 
@@ -219,20 +224,41 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 16px 40px;
-  gap: 8px;
+  padding: 1.6rem 4rem;
+  gap: .8rem;
   
   /* position: absolute; */
-  width: 196px;
-  height: 54px;
+  width: 19.6rem;
+  height: 5.4rem;
   /* left: 120px; */
   /* top: 600px; */
-  margin-top: 30px;
+  margin-top: 3rem;
   text-decoration: none;
   
   /* Primary */
   background: #4D0043;
-  border-radius: 45px;
+  border-radius: 4.5rem;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Screen Color */
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .card_content a{
@@ -246,9 +272,9 @@
 }
 
 .whatsapp{
-  margin-top: 30px;
-  width: 60px;
-  height: 60px;
+  margin-top: 3rem;
+  width: 6rem;
+  height: 6rem;
   background: #5772FF;
   display: flex;
   align-items: center;
@@ -263,7 +289,7 @@
   position: fixed;
   right: 0%;
   top: 41%;
-  height: 150px;
+  height: 15rem;
   align-items: center;
   justify-content: space-between;
   /* width: 40px; */
@@ -290,10 +316,10 @@
 }
 
 .social_media .facebook, .social_media .twitter, .social_media .instagram{
-  padding: 10px;
-  border-radius: 2px;
-  width: 40px;
-  height: 40px;
+  padding: 1rem;
+  border-radius: .2rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 .carousel_arrow_left,
@@ -329,13 +355,13 @@
 }
 
 .pagination_dot {
-  height: 16px;
-  width: 16px;
+  height: 1.6rem;
+  width: 1.6rem;
   /* background: rgba(125,125,125,0.5); */
   background: #A7A7A7;
   border-radius: 50%;
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 1rem;
   cursor: pointer;
 }
 

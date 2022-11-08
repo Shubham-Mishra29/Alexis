@@ -1,6 +1,6 @@
 .content4{
     width: 100%;
-    height: 521px;
+    height: 52.1rem;
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -12,18 +12,21 @@
     align-items: center;
     justify-content: space-between;
     /* background-color: black; */
-    height: 318px;
-    width: 1212px;
+    /* height: 318px; */
+    height: auto;
+    /* width: 1212px; */
+    width: 80%;
     /* flex-wrap: wrap; */
 }
 
 .content4 .main .box{
-    height: 100%;
+    height: 31.8rem;
     background: #F5F5F5;
-    width: 384px;
+    width: 38.4rem;
     position: relative;
     transition: 0.2s ease-in;
     /* margin-left: 2%; */
+    margin: .2rem;
 }
 
 .content4 .main .box:hover{
@@ -36,37 +39,40 @@
     align-items: center;
     justify-content: space-between;
     width: 40%;
+    /* width: auto; */
     /* position: absolute; */
     position: absolute;
-    left: -4px;
-    top: 36px;    
+    left: -.4rem;
+    top: 3.6rem;    
 }
 .content4 .main .box2 .top{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 58%;
+    /* width: auto; */
     /* position: absolute; */
     position: absolute;
-    left: -4px;
-    top: 36px;    
+    left: -.4rem;
+    top: 3.6rem;      
 }
 .content4 .main .box3 .top{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 50%;
+    /* width: auto; */
     /* position: absolute; */
     position: absolute;
-    left: -4px;
-    top: 36px;    
+    left: -.4rem;
+    top: 3.6rem;      
 }
 
 /* Arrow */
 .content4 .main .box .top .fa-play{
 /* position: absolute; */
-width: 26px;
-height: 22px;
+width: 2.6rem;
+height: 2.2rem;
 /* left: -4px;
 top: 36px; */
 color: white;
@@ -77,13 +83,13 @@ color: white;
 .content4 .main .box .top .heading{
     color: #4D0043;
     font-family: Lato;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 800;
-    line-height: 28px;
+    line-height: 2.8rem;
     letter-spacing: 0em;
     text-align: left;
     position: relative;
-    top: 6px;
+    top: .6rem;
 }
 
 .content4 .main .box:hover .top .heading{
@@ -93,15 +99,17 @@ color: white;
 /* Content of the boxes */
 .content4 .main .box .bottom{
     position: absolute;
-    width: 329px;
-    height: 214px;
-    left: 29px;
-    top: 87px;
+    /* width: 32.9rem; */
+    width: 80%;
+    /* height: 21.4rem; */
+    height: 80%;
+    left: 2.9rem;
+    top: 8.7rem;
     
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 140%;
     /* or 20px */
     
@@ -123,3 +131,21 @@ left: -4px;
 top: 36px;
 color: white;
 } */
+
+
+/* Responsive */
+@media screen and (max-width : 800px){
+    .content4 .main{
+        /* display : block; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        /* height: 114.6rem; */
+        width: 100%;
+    }
+
+    .content4 .main .box{
+        /* width: 100%; */
+    }
+}

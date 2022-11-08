@@ -61,14 +61,14 @@ function Carousel({ images }) {
                   {/* <div className="nav"> */}
                   <div className="outer">
                     <div>
-                      <img src={logo} />
+                      <img src={logo} className = 'companylogo'/>
                     </div>
 
                     <div className="inner">
                       {/* Links */}
 
                       <li>
-                      <NavLink to="/">Home</NavLink>
+                      <NavLink exact to="/">Home</NavLink>
                       </li>
                       {/* <li><a href="">Services</a></li> */}
                       <li>

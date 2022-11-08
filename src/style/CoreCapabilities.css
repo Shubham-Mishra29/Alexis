@@ -1,6 +1,6 @@
 .corecapabilities{
     width: 100%;
-    height: 658px;
+    height: 65.8rem;
     background: #F5F5F5;
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: space-between;
     width: 83%;
-    height: 550px;
+    height: 55rem;
 }
 
 .corecapabilities .main .top{
@@ -21,19 +21,19 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-between;    
-    height: 55px;   
+    height: 5.5rem;   
     position: relative;
-    top: 30px;
+    top: 3rem;
 }
 
 .corecapabilities .main .top .heading{
-    width: 313px;
-    height: 38px;
+    width: 31.3rem;
+    height: 3.8rem;
 
     font-family: 'Lato';
     font-style: normal;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 3.2rem;
     line-height: 120%;
     /* or 38px */
     
@@ -45,8 +45,8 @@
 }
 
 .corecapabilities .main .top .bar{
-    width: 94px;
-    height: 3px;    
+    width: 9.4rem;
+    height: .3rem;    
     /* Primary */
     
     background: #4D0043;   
@@ -57,7 +57,7 @@
     /* background-color: black; */
     background-color: #F5F5F5;;
     width: 100%;
-    height: 420px;
+    height: 42rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,8 +91,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px;
-    width: 60px;
+    height: 6rem;
+    width: 6rem;
     border-radius: 50%;
     background: #EBEBEB;
 }
@@ -111,13 +111,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 1rem;
 }
 
 .corecapabilities .main .bottom .col .box .contentleft .headingleft{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 140%;
     /* or 22px */
 
@@ -131,7 +132,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 140%;
     /* or 20px */
 
@@ -147,8 +148,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px;
-    width: 60px;
+    height: 6rem;
+    width: 6rem;
     border-radius: 50%;
     background: #EBEBEB;
 }
@@ -168,13 +169,14 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: right;
+    margin-right: 1rem;
 }
 
 .corecapabilities .main .bottom .col .box .contentright .headingright{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 140%;
     /* or 22px */
     text-align: right;
@@ -188,7 +190,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 140%;
     /* or 20px */
 
@@ -203,9 +205,33 @@
     /* width: 26.6%; */
     position: relative;
     top: 0%;
-    width: 336px;
+    /* width: 33.6rem; */
+    width: 33.6rem;
     height: 100%;
     background: url('../assests/Ellipse.png');
     background-repeat: no-repeat;
-    
+    background-size: contain;
+}
+
+
+/* Responsive */
+@media screen and (max-width : 1200px){
+    .corecapabilities .main{
+        width: 95%;
+    }
+}
+
+
+@media screen and (max-width : 950px){
+    .corecapabilities{
+        height: 80rem;
+    }
+
+    .corecapabilities .main{
+        width: 98%;
+    }
+
+    .corecapabilities .main .top{
+        top: 0;
+    }
 }

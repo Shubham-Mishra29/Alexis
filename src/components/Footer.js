@@ -23,8 +23,8 @@ const Footer = () => {
             <div className="bar"></div>
             <div className="content">
               <div className="left">
-                <div><Link to = "">Home</Link></div>
-                <div><Link to = "">Services</Link></div>
+                <div><Link to = "/">Home</Link></div>
+                <div><Link to = "/services">Services</Link></div>
                 <div><Link to = "">Blog</Link></div>
               </div>
               <div className="right">
