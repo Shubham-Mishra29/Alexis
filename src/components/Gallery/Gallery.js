@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../Footer';
 import Template from '../Template';
-import WSPGallery from '../WSPGallery';
+// import WSPGallery from '../WSPGallery';
 import BackToTopButton from '../BackToTopButton';
 import './Gallery.css';
 
@@ -51,7 +51,7 @@ const Gallery = () => {
         <Template name = "Our Gallery"/>
         <div className="gallerymain">
             <div className="images">
-            <WSPGallery galleryImages={galleryImages}/>
+            {/* <WSPGallery galleryImages={galleryImages}/> */}
             </div>
         </div>
         <Footer/>
