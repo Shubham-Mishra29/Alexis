@@ -1,6 +1,6 @@
 .additionalservices{
     width: 100%;
-    height: 658px;
+    height: 65.8rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: space-between;
     width: 83%;
-    height: 460px;   
+    height: 46rem;   
 }
 
 .additionalservices .main .top{
@@ -21,19 +21,19 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-between;    
-    height: 55px;   
+    height: 5.5rem;   
     position: relative;
-    top: 10px;
+    top: 1rem;
 }
 
 .additionalservices .main .top .heading{
-    width: 373px;
-    height: 38px;
+    width: 37.3rem;
+    height: 3.8rem;
 
     font-family: 'Lato';
     font-style: normal;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 3.2rem;
     line-height: 120%;
     /* or 38px */
     
@@ -45,8 +45,8 @@
 }
 
 .additionalservices .main .top .bar{
-    width: 94px;
-    height: 3px;    
+    width: 9.4rem;
+    height: .3rem;    
     /* Primary */
     
     background: #4D0043;   
@@ -55,7 +55,7 @@
 .additionalservices .main .bottom{
     width: 100%;
     /* height: 380px; */
-    height: 340px;
+    height: 34rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,7 +64,7 @@
 
 .additionalservices .main .bottom .flexrow{
     width: 100%;
-    height: 148px;
+    height: 14.8rem;
     /* height: 176px; */
     /* background-color: red; */
     display: flex;
@@ -73,7 +73,8 @@
 }
 
 .additionalservices .main .bottom .flexrow .box{
-    width: 384px;
+    /* width: 38.4rem; */
+    width: 30.4%;
     height: 100%;
     background: #F5F5F5;
     display: flex;
@@ -82,7 +83,7 @@
 
 .additionalservices .main .bottom .flexrow .box .left{
     position: relative;
-    left: -4px;
+    left: -.4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,7 +92,7 @@
 
 .additionalservices .main .bottom .flexrow .box2 .left{
     position: relative;
-    left: -4px;
+    left: -.4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,7 +101,7 @@
 
 .additionalservices .main .bottom .flexrow .box6 .left{
     position: relative;
-    left: -4px;
+    left: -.4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -108,12 +109,14 @@
 }
 
 .additionalservices .main .bottom .flexrow .box .left .services{
-    width: 235px;
-    height: 34px;
+    position: absolute;
+    left: 4rem;
+    width: 23.5rem;
+    height: 3.4rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 140%;
     /* identical to box height, or 34px */
     
@@ -124,17 +127,17 @@
 }
 
 .additionalservices .main .bottom .flexrow .box2 .left .services{
-    width: 259px;
-    height: 34px;
+    width: 25.9rem;
+    height: 3.4rem;
     position: absolute;
-    left: 52px;
+    /* left: 5.2rem; */
+    left: 4rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 140%;
     /* identical to box height, or 34px */
-    
     
     /* Primary */
     z-index: 2;
@@ -142,18 +145,17 @@
 }
 
 .additionalservices .main .bottom .flexrow .box6 .left .services{
-    width: 332px;
-    height: 34px;
+    width: 33.2rem;
+    height: 3.4rem;
     position: absolute;
-    left: 40px;
+    left: 4rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 140%;
     /* identical to box height, or 34px */
-    
-    
+    overflow-wrap: break-word;
     /* Primary */
     z-index: 2;
     color: #4D0043;    
@@ -164,7 +166,60 @@
 }
 
 .additionalservices .main .bottom .flexrow .box .right{
+    /* width: 11.7rem; */
+
     position: relative;
-    bottom: -24px;
-    left: -16px;
+    bottom: -2.4rem;
+    /* bottom: -11.4rem; */
+    left: -1.6rem;
+}
+
+.additionalservices .main .bottom .flexrow .box2 .right{
+    bottom: -2.6rem;
+}
+
+.additionalservices .main .bottom .flexrow .box6 .right{
+    bottom: -2.8rem;
+}
+
+.additionalservices .main .bottom .flexrow .box .right img{
+    max-width: 100%;
+    height: 100%;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width : 1440px){
+
+    .additionalservices .main .bottom .flexrow .box6 .left .services{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width : 1200px){
+
+    .additionalservices .main .bottom .flexrow .box2 .left .services{
+        width: 100%;
+        height: auto;
+    }
+
+    .additionalservices .main .bottom .flexrow .box .left .services{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width : 600px){
+    .additionalservices .main .bottom .flexrow .box2 .left .services{
+        overflow-wrap: break-word;
+    }
+
+    .additionalservices .main .bottom .flexrow .box6 .left .services{
+        /* width: 80%; */
+        width: 12rem;
+        /* height: 80%; */
+    }
 }
