@@ -6,6 +6,7 @@ import Gallery from "./components/Gallery/Gallery";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Blog from "./components/Blog/Blog";
 import Careers from "./components/Careers/Careers";
+import RPManager from "./components/Careers/RPManager";
 
 
 function App() {
@@ -13,12 +14,13 @@ function App() {
     <div className="App">
 
       <Routes>
-        <Route exact path="/" element={<Landingpage/>} />
-        <Route path="/services" element={<Services/>} />
-        <Route path="/gallery" element={<Gallery/>} />
-        <Route path="/contactus" element={<ContactUs/>} />
-        <Route path="/blog" element={<Blog/>} />
-        <Route path="/careers" element={<Careers/>} />
+            <Route path = "/" element={<Landingpage/>} />
+            <Route path = "/services" element={<Services/>} />
+            <Route path = "/gallery" element={<Gallery/>} />
+            <Route path = "/contactus" element={<ContactUs/>} />
+            <Route path = "/blog" element={<Blog/>} />
+            <Route path = "/careers" element = {<Careers/>} />
+            <Route path = "/careers/regional" element = {<RPManager/>}/>
       </Routes>
 
     </div>

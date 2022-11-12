@@ -32,8 +32,8 @@ const validateEmail = (e) => {
 
             <div className="bottom">
                 <div className="nameandemail">
-                    <input type="text" name='name' className='name' placeholder='Name*' value={Name} onChange = {(e) => setName(e.target.value)}/> 
-                    <input type="text" name='email' className='email' placeholder='E-mail*' value={Email} onChange={(e) => validateEmail(e)}/>                    
+                    <input type="text" name='name' className='name' placeholder='Name*' value={Name} onChange = {(e) => setName(e.target.value)} autocomplete="off"/> 
+                    <input type="text" name='email' className='email' placeholder='E-mail*' value={Email} onChange={(e) => validateEmail(e)} autocomplete="off"/>                    
                 </div>
                     <span
                     style={{

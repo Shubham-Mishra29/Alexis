@@ -6,7 +6,7 @@ import twitter from "../assests/twitter.png";
 import instagram from "../assests/instagram.png";
 import { NavLink} from "react-router-dom"
 
-const Template = ({name}) => {
+const Template = ({name, fname}) => {
   return (
     <div className='template'>
       <Navbar/>
@@ -25,7 +25,7 @@ const Template = ({name}) => {
 
             <div className="main">
                     <div className="top">{name}</div>
-                    <div className="bottom"><NavLink exact to="/">Home</NavLink> / {name}</div>
+                    <div className="bottom"><NavLink exact to="/">Home</NavLink> / {name} {fname}</div>
             </div>
     </div>
   )

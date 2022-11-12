@@ -1,0 +1,451 @@
+.rpmanager{
+    width: 100%;
+    height: 213.1rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rpmanager .main{
+    width: 80%;
+    height: 190rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+
+.rpmanager .main .top{
+    height: 93rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rpmanager .main .top .left{
+    display: block;
+    width: 78rem;
+     /* width: 68%; */
+    height: 22.3rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 140%;
+    /* or 20px */
+    
+    
+    /* text */
+    
+    color: #272C35;   
+}
+
+.rpmanager .main .top .left .rpinfo{  
+    width: 27rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rpmanager .main .top .left .rpinfo .date, .application{
+    width: 12.9rem;
+    height: 1.7rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 120%;
+    
+    color: #5772FF;   
+}
+
+.rpmanager .main .top .left .jobHeading{
+    width: 78rem;
+    height: 2.4rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 140%;
+    /* or 22px */
+    
+    margin-bottom: 1rem;
+    /* text */
+    
+    color: #272C35;   
+}
+
+
+.rpmanager .main .top .right{
+    width: 38.4rem;
+    /* width: 30%; */
+    height: 100%;
+    background: #F5F5F5;
+}
+
+.rpmanager .main .top .right .jobCatergory{
+    width: 10.1rem;
+    height: 2.4rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: 0.02em;
+    margin-left: 3rem;
+    /* text */
+
+    color: #272C35;
+}
+
+.rpmanager .main .top .right a {
+    text-decoration: none;
+    /* width: 94px; */
+    width: 12rem;
+    height: 1.7rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: 0.02em;
+
+    /* caption */
+
+    color: #898B92;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.rpmanager .main .top .right .categories{
+    margin-left: 4rem;
+    width: 9.4rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rpmanager .main .top .right .hr{
+    width: 36.8rem;
+    /* width: 96%; */
+    height: 0px;
+    
+    border: 0.01rem solid #E0E0E0;
+}
+
+
+.rpmanager .main .top .right .search{
+
+}
+
+.rpmanager .main .top .right .search .searchHeading{
+    width: 6.3rem;
+    height: 2.4rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+    
+    letter-spacing: 0.02em;
+    
+    /* text */
+    
+    color: #272C35;
+    margin-left: 3rem;    
+}
+
+.rpmanager .main .top .right .search input[type=text]{
+    border: none;
+    outline: 0;
+}
+
+.rpmanager .main .top .right .search .searchBar{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.4rem 4rem;
+    /* gap: 13rem; */
+
+    width: 28.3rem;
+    height: 5.6rem;
+    
+    background: #FFFFFF;
+    border: 0.1rem solid #E6E6E6;
+    border-radius: 4.5rem;    
+
+    margin-left: 3rem;
+}
+
+.rpmanager .main .top .right .search input ::placeholder{
+    width: 7.1rem;
+    height: 2.2rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    
+    text-align: center;
+    
+    /* caption */
+    
+    color: #898B92;   
+}
+
+.rpmanager .main .top .right .search input:focus::-webkit-input-placeholder { color:transparent; }
+
+.rpmanager .main .top .right .search .searchBar .searchicon{
+    display: flex;
+    align-items: center;
+    color: #5772FF;
+    font-size: 1.8rem;
+}
+
+.rpmanager .main .top .right .recentJobs{
+    margin-left: 3rem;
+}
+
+.rpmanager .main .top .right .recentJobs .recentJobHeading{
+    width: 112px;
+    height: 24px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+    
+    letter-spacing: 0.02em;
+    
+    /* text */
+    
+    color: #272C35;
+}
+
+.rpmanager .main .top .right .recentJobs .recentJobList{
+    margin-left: 3.5rem;
+    width: 9.4rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.rpmanager .main .top .right .recentJobs .recentJobList a{
+    width: 17rem;
+}
+
+.rpmanager .main .bottom{
+    height: 93rem;
+    width: 100%;
+    /* background-color: green; */
+}
+
+.rpmanager .main .bottom .interest{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 21rem;
+}
+
+.rpmanager .main .bottom .interest .interestHeading{
+    width: 15.7rem;
+    height: 3.8rem;
+    
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 120%;
+    
+    color: #898B92;   
+}
+
+.rpmanager .main .bottom .form{
+    width: 76rem;
+    height: 74rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.rpmanager .main .bottom .form .fullname{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rpmanager .main .bottom .form .fullname .fname, .lname{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.4rem;
+    gap: .8rem;
+    
+    width: 34.9rem;
+    height: 5.6rem;
+    
+    border: .1rem solid #E6E6E6;
+    border-radius: 4.5rem;    
+}
+
+.rpmanager .main .bottom .form .fullname input::placeholder{
+    width: 9.5rem;
+    height: 2.2rem;
+    
+    /* Headline/Headline 5 */
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    
+    text-align: center;
+    
+    /* caption */
+    
+    color: #898B92;  
+}
+
+.rpmanager .main .bottom .form input:nth-child(3)::placeholder{
+    width: 12.9rem;
+    height: 2.2rem;
+}
+
+.rpmanager .main .bottom .form input:focus::-webkit-input-placeholder { color:transparent; }
+
+.rpmanager .main .bottom .form .email, .phoneno{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.4rem;
+    gap: .8rem;
+
+    width: 75.8rem;
+    height: 5.6rem;
+    
+    border: .1rem solid #E6E6E6;
+    border-radius: 4.5rem;   
+}
+
+.rpmanager .main .bottom .form .file{
+  
+}
+
+.rpmanager .main .bottom .form input[type = "file"]{
+    display: none
+}
+
+.rpmanager .main .bottom .form .uploadcv{
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2.4rem 4rem;
+    /* gap: .8rem; */
+
+    width: 75.8rem;
+    height: 17.4rem;
+    
+    border: 0.1rem solid #E6E6E6;
+    border-radius: 2.4rem;  
+}
+
+.rpmanager .main .bottom .form .consent{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.rpmanager .main .bottom .form .consent input{
+    position: relative;
+    top: 0.2rem;
+}
+
+.rpmanager .main .bottom .form .consent div{
+    width: 74rem;
+    height: 4.4rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    /* text */
+    
+    color: #272C35;    
+}
+
+.rpmanager .main .bottom .form .submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 8px;
+    width: 272px;
+    height: 54px;
+    
+    /* Primary */
+    
+    background: #4D0043;
+    border-radius: 45px;    
+
+    /* Text */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Screen Color */
+
+    color: #FFFFFF;
+}

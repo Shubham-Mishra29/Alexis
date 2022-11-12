@@ -35,20 +35,20 @@
 }
 
 .template .main .bottom{
-    width: 38.9rem;
+    width: 49rem;
     height: 4rem;
     
     font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
-    font-size: 3.6rem;
+    font-size: 2.4rem;
     line-height: 110%;
-    /* identical to box height, or 40px */
+    /* or 26px */
     
     text-align: center;
     letter-spacing: 0.02em;
     
-    color: #FFFFFF;   
+    color: #FFFFFF;  
 }
 
 .template .main .bottom a{
