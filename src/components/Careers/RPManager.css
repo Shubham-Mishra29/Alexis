@@ -222,6 +222,7 @@
     align-items: center;
     color: #5772FF;
     font-size: 1.8rem;
+    /* margin-left: 3rem; */
 }
 
 .rpmanager .main .top .right .recentJobs{

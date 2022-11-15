@@ -35,7 +35,8 @@
 }
 
 .template .main .bottom{
-    width: 49rem;
+    /* width: 49rem; */
+    width: 51rem;
     height: 4rem;
     
     font-family: 'Lato';

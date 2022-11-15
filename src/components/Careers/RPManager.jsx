@@ -1,14 +1,74 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BackToTopButton from '../BackToTopButton';
 import Footer from '../Footer';
 import Template from '../Template';
 import './RPManager.css';
+import validator from "validator";
 import UploadCV from './UploadCV';
+import 'react-notifications/lib/notifications.css';
+import axios from 'axios';
+import {NotificationContainer, NotificationManager} from 'react-notifications';
 
 const RPManager = () => {
-  const handleSubmit = (e) =>{
-    e.preventDefault()
+
+const [fName, setfName] = useState("");
+const [lName, setlName] = useState("");
+const [Email, setEmail] = useState("");
+const [PhoneNo, setPhoneNo] = useState("");
+const [fileData, setfileData] = useState(null);
+const [validmessage, setValidMessage] = useState("");
+
+  const handleSubmit = async(e) =>{
+    e.preventDefault();
+
+    if(fName && lName && !validmessage && PhoneNo){
+        const data = {
+            fName,
+            lName,
+            Email,
+            PhoneNo,
+            fileData
+        }
+
+        try {
+            const result = await axios.post("url",data);
+      
+            // const result = await fetch("url",{
+            //   method : 'post',
+            //   body : JSON.stringify(data),
+            //   headers: {
+            //     "Content-type": "application/json; charset=UTF-8"
+            // }
+            // })
+      
+          } 
+          
+          catch (error) {
+            console.log(error);
+          }
+    }
+
+    else{
+        if(!fName && !lName && (validmessage || '') && !PhoneNo){
+            NotificationManager.info('Please, enter First Name');
+            NotificationManager.info('Please, enter Last Name');
+            NotificationManager.error('Please, enter valid Email!');
+            NotificationManager.info('Please, enter a Phone No');
+        }
+    }
+    
   }
+
+  const validateEmail = (e) => {
+    var email = e.target.value;
+    setEmail(e.target.value);
+    if (validator.isEmail(email)) {
+      setValidMessage("");
+    } else {
+      setValidMessage("Please, enter valid Email!");
+    }
+  };
+
 
   return (
     <div className="">
@@ -186,17 +246,18 @@ const RPManager = () => {
 
                         <form action="" onSubmit={handleSubmit} className="form"> 
                         <div className="fullname">
-                            <input type="text" name="fname" id="" className='fname' placeholder='First Name*' autoComplete='off'/>
-                            <input type="text" name="lname" id="" className='lname' placeholder='Last Name*' autoComplete='off'/>
+                            <input type="text" name="fname" id="" className='fname' placeholder='First Name*' value={fName} onChange = {(e) => setfName(e.target.value)} autoComplete='off' />
+                            <input type="text" name="lname" id="" className='lname' placeholder='Last Name*' value={lName} onChange = {(e) => setlName(e.target.value)}  autoComplete='off' />
                         </div>
 
-                        <input type="text" name='email*' className='email' placeholder='Email*' autoComplete='off'/>
-                        <input type="text" name="phoneno" id="" className='phoneno' placeholder='Phone Number*' autoComplete='off'/>
+                        <input type="text" name='email*' className='email' placeholder='Email*' value={Email} onChange={(e) => validateEmail(e)} autoComplete='off'/>
+                        
+                        <input type="text" name="phoneno" id="" className='phoneno' placeholder='Phone Number*' value={PhoneNo} onChange = {(e) => setPhoneNo(e.target.value)} autoComplete='off'/>
                         
                         <label htmlFor="jobfile" className='uploadcv'>
                             <UploadCV/>
                         </label>
-                        <input type="file" name="" id="jobfile" className='file' />
+                        <input type="file" name="" id="jobfile" className='file'  onChange={(e) => setfileData(e.target.files[0])}/>
 
                         <div className="consent">
                             <input type="checkbox" name="" id="" />
@@ -204,6 +265,7 @@ const RPManager = () => {
                         </div>
                         
                         <button type='submit' className='submit'>Submit Application</button>
+                        <NotificationContainer/>
                         </form>
                 </div>
             </div>
