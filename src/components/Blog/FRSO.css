@@ -1,0 +1,512 @@
+.frso{
+    width: 100%;
+    height: 250.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frso .main{
+    width: 80%;
+    height: 90%;
+    /* background-color: red; */
+}
+
+.frso .main .top{
+    height: 134.2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frso .main .top .left{
+    /* width: 79.4rem; */
+     width: 68%;
+    height: 100%;
+    /* background-color: black; */
+}
+
+.frso .main .top .left img{
+    max-width: 100%;
+}
+
+.frso .main .top .left .blogHeading{
+    width: 78rem;
+    height: 4rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 140%;
+    /* identical to box height, or 39px */
+    
+    
+    /* text */
+    
+    color: #272C35    
+}
+
+.frso .main .top .left .bloginfo{
+    width: 24rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.frso .main .top .left .bloginfo .date{
+    width: 8.8rem;
+    height: 1.7rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+    
+    
+    /* Secondary */
+    
+    color: #5772FF; 
+}
+
+.frso .main .top .left .bloginfo .comments{
+    width: 12.9rem;
+    height: 1.7rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+    
+    
+    /* Secondary */
+    
+    color: #5772FF;
+}
+
+.frso .main .top .left .blogcontent{
+    /* width: 79.4rem; */
+    width: 100%;
+    height: 22.3rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 140%;
+    
+    color: #272C35;    
+}
+
+.frso .main .top .left .blogsocial{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    width: 14rem;
+}
+
+.frso .main .top .left .blogsocial a{
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .8rem;
+    border-radius: 50%;   
+}
+
+.frso .main .top .left .tagandcat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 5.1rem;
+}
+
+.frso .main .top .left .blogauthor{
+    height: 23.3rem;
+    width: 79.7rem;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frso .main .top .left .blogauthor .authorcontent{
+    width: 90%;
+    height: 13.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frso .main .top .left .blogauthor .authorcontent .rightcontent{
+    /* margin-left: 1rem; */
+    width: 54rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frso .main .top .left .blogauthor .authorcontent .rightcontent .about{
+    width: 5.7rem;
+    height: 2.8rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 140%;
+    
+    color: #898B92;   
+}
+
+.frso .main .top .left .blogauthor .authorcontent .rightcontent .name{
+    width: 12rem;
+    height: 3.4rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 140%;
+    
+    color: #272C35;    
+}
+
+.frso .main .top .left .blogauthor .authorcontent .rightcontent .desc{
+    width: 52.1rem;
+    height: 6.3rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 140%;
+    color: #898B92;    
+}
+
+.frso .main .top .right{
+    /* width: 38.4rem; */
+    width: 30%;
+    height: 100%;
+    background: #F5F5F5;
+}
+
+.frso .main .right .blogCategory{
+    width: 10.1rem;
+    height: 2.4rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: 0.02em;
+    margin-left: 3rem;
+    /* text */
+
+    color: #272C35;    
+}
+
+.frso .main .right a {
+    text-decoration: none;
+    /* width: 94px; */
+    width: 17rem;
+    height: 1.7rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: 0.02em;
+
+    /* caption */
+
+    color: #898B92;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+
+.frso .main .right .blogcategories{
+    /* margin-left: 4rem; */
+    margin-left: 7rem;
+    width: 9.4rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frso .main .right .hr{
+    /* width: 36.8rem; */
+    width: 96%;
+    height: 0px;
+    
+    border: 0.01rem solid #E0E0E0;
+}
+
+.frso .main .right .search .searchHeading{
+    width: 6.3rem;
+    height: 2.4rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+    
+    letter-spacing: 0.02em;
+    
+    /* text */
+    
+    color: #272C35;
+    margin-left: 3rem;    
+}
+
+.frso .main .right .search input[type=text]{
+    border: none;
+    outline: 0;
+}
+
+.frso .main .right .search .searchBar{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.4rem 4rem;
+    /* gap: 13rem; */
+
+    width: 28.3rem;
+    height: 5.6rem;
+    
+    background: #FFFFFF;
+    border: 0.1rem solid #E6E6E6;
+    border-radius: 4.5rem;    
+
+    margin-left: 3rem;
+}
+
+.frso .main .right .search input ::placeholder{
+    width: 7.1rem;
+    height: 2.2rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    
+    text-align: center;
+    
+    /* caption */
+    
+    color: #898B92;   
+}
+
+.frso .main .bottom input:focus::-webkit-input-placeholder { color:transparent; }
+.frso .main .bottom textarea:focus::-webkit-input-placeholder { color:transparent; }
+
+.frso .main .right .search .searchBar .searchicon{
+    display: flex;
+    align-items: center;
+    color: #5772FF;
+    font-size: 1.8rem;
+    /* margin-left: 3rem; */
+}
+
+.frso .main .bottom .noOfcmts{
+    width: 21.5rem;
+    height: 4.5rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.2rem;
+    line-height: 140%;
+    /* identical to box height, or 45px */
+    
+    text-transform: uppercase;
+    
+    /* text */
+    
+    color: #272C35;   
+}
+
+.frso .main .bottom .commenter{
+    height: 23.3rem;
+    width: 79.7rem;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.frso .main .bottom .commenter .commentercontent{
+    width: 90%;
+    height: 13.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.frso .main .bottom .commenter .commentercontent .rightcontent{
+    width: 54rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.frso .main .bottom .commenter .commentercontent .rightcontent .comment{
+    width: 52.1rem;
+    height: 6.3rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 140%;
+    
+    color: #898B92;    
+}
+
+.frso .main .bottom .commenter .commentercontent .rightcontent .reply{
+    width: 4.1rem;
+    height: 2rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FF0E0E;    
+}
+
+.frso .main .bottom .addcmt{
+    width: 497px;
+    height: 38px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+    
+    letter-spacing: 0.02em;
+    
+    /* text-color */
+    
+    color: #252B42;
+}
+
+.frso .main .bottom .form{
+    height: 41rem;
+    width: 71.6rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;    
+}
+
+.frso .main .bottom .form .nameandemail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.frso .main .bottom .form .nameandemail .name, .email{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.4rem;
+    gap: .8rem;
+    
+    width: 34.9rem;
+    height: 5.6rem;
+    
+    border: .1rem solid #E6E6E6;
+    border-radius: 4.5rem;   
+}
+
+.frso .main .bottom .form .messageText{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2.4rem;
+    gap: .8rem;
+    
+    width: 72rem;
+    height: 23.2rem;
+    
+    border: .1rem solid #E6E6E6;
+    border-radius: 2.4rem;    
+}
+
+.frso .main .bottom .form .postcmt{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.frso .main .bottom .form .submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 8px;
+    width: 242px;
+    height: 54px;
+    
+    /* Primary */
+    
+    background: #4D0043;
+    border-radius: 45px;    
+    
+}
+
+.frso .main .bottom .form .submit span{
+    width: 147px;
+    height: 22px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* Screen Color */
+    
+    color: #FFFFFF;   
+}
