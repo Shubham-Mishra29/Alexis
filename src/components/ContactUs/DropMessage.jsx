@@ -2,8 +2,8 @@ import React from 'react'
 import { useState } from 'react';
 import './DropMessage.css';
 import validator from "validator";
-import 'react-notifications/lib/notifications.css';
-import {NotificationContainer, NotificationManager} from 'react-notifications';
+// import 'react-notifications/lib/notifications.css';
+// import {NotificationContainer, NotificationManager} from 'react-notifications';
 import axios from 'axios';
 
 const DropMessage = () => {
@@ -50,38 +50,38 @@ const handleSubmit = async() =>{
   
   else{
 
-    if(validmessage && !Name && !Message){
-      NotificationManager.error('Please, enter valid Email!');
-      NotificationManager.info('Please, enter a Name');
-      NotificationManager.info('Type a Message');
-    }
+    // if(validmessage && !Name && !Message){
+    //   NotificationManager.error('Please, enter valid Email!');
+    //   NotificationManager.info('Please, enter a Name');
+    //   NotificationManager.info('Type a Message');
+    // }
   
-    else if(!Name && !Message){
-      NotificationManager.info('Please, enter a Name');
-      NotificationManager.info('Type a Message');
-    }
+    // else if(!Name && !Message){
+    //   NotificationManager.info('Please, enter a Name');
+    //   NotificationManager.info('Type a Message');
+    // }
   
-    else if(validmessage && !Message){
-      NotificationManager.error('Please, enter valid Email!');
-      NotificationManager.info('Type a Message');
-    }
+    // else if(validmessage && !Message){
+    //   NotificationManager.error('Please, enter valid Email!');
+    //   NotificationManager.info('Type a Message');
+    // }
 
-    else if(validmessage && !Name){
-      NotificationManager.error('Please, enter valid Email!');
-      NotificationManager.info('Please, enter a Name');
-    }
+    // else if(validmessage && !Name){
+    //   NotificationManager.error('Please, enter valid Email!');
+    //   NotificationManager.info('Please, enter a Name');
+    // }
 
-    else if(!Name){
-      NotificationManager.info('Please, enter a Name');
-    }
+    // else if(!Name){
+    //   NotificationManager.info('Please, enter a Name');
+    // }
 
-    else if(!Message){
-      NotificationManager.info('Type a Message');
-    }
+    // else if(!Message){
+    //   NotificationManager.info('Type a Message');
+    // }
 
-    else if(validmessage){
-      NotificationManager.error('Please, enter valid Email!');
-    }
+    // else if(validmessage){
+    //   NotificationManager.error('Please, enter valid Email!');
+    // }
   }
 
   
@@ -125,7 +125,7 @@ const validateEmail = (e) => {
                 <textarea className="messageText" name="" id="" cols="30" rows="10" placeholder='Message*' value={Message} onChange = {(e) => setMessage(e.target.value)}></textarea>
                 </div>
                 <div className="messagebox"><button className='sendmsg' onClick={handleSubmit}><span>Send message</span></button></div>
-                <NotificationContainer/>
+                {/* <NotificationContainer/> */}
             </div>
         </div>
     </div>

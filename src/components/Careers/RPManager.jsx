@@ -5,9 +5,9 @@ import Template from '../Template';
 import './RPManager.css';
 import validator from "validator";
 import UploadCV from './UploadCV';
-import 'react-notifications/lib/notifications.css';
+// import 'react-notifications/lib/notifications.css';
 import axios from 'axios';
-import {NotificationContainer, NotificationManager} from 'react-notifications';
+// import {NotificationContainer, NotificationManager} from 'react-notifications';
 
 const RPManager = () => {
 
@@ -50,10 +50,10 @@ const [validmessage, setValidMessage] = useState("");
 
     else{
         if(!fName && !lName && (validmessage || '') && !PhoneNo){
-            NotificationManager.info('Please, enter First Name');
-            NotificationManager.info('Please, enter Last Name');
-            NotificationManager.error('Please, enter valid Email!');
-            NotificationManager.info('Please, enter a Phone No');
+            // NotificationManager.info('Please, enter First Name');
+            // NotificationManager.info('Please, enter Last Name');
+            // NotificationManager.error('Please, enter valid Email!');
+            // NotificationManager.info('Please, enter a Phone No');
         }
     }
     
@@ -265,7 +265,7 @@ const [validmessage, setValidMessage] = useState("");
                         </div>
                         
                         <button type='submit' className='submit'>Submit Application</button>
-                        <NotificationContainer/>
+                        {/* <NotificationContainer/> */}
                         </form>
                 </div>
             </div>
