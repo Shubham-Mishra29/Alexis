@@ -223,3 +223,41 @@
         /* height: 80%; */
     }
 }
+
+@media screen and (max-width : 480px){
+    .additionalservices{
+        width: 100%;
+        height: 872px;
+    }
+
+    .additionalservices .main{
+        flex-direction: column;
+        height: 90%;
+    }
+
+    .additionalservices .main .bottom{
+        height: 90%;
+    }
+
+    .additionalservices .main .bottom .flexrow{
+        height: 48%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .additionalservices .main .bottom .flexrow .box{
+        width: 100%;
+        height: 88px;
+    }
+
+    .additionalservices .main .bottom .flexrow .box6 .left .services{
+        width: 100%;
+    }
+
+    .additionalservices .main .bottom .flexrow .box .right img{
+        max-width: 58%;
+        position: relative;
+        right: -40%;
+    }
+}

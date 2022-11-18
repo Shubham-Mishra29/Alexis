@@ -252,5 +252,9 @@
 }
 
 @media screen and (max-width : 545px){
-  
+  .nav_colorChange{
+    width: 100%;
+    /* width: 50rem; */
+    z-index: 2;
+  }
 }
