@@ -262,7 +262,7 @@
         background-size:contain;
         order: -1;
         position: relative;
-        left: 6%;
+        left: 10%;
     }
     .corecapabilities .main .bottom .col3{
         order: 2;
@@ -291,4 +291,13 @@
     .corecapabilities .main .bottom .col .box .contentright .headingright{
         text-align: left;
     }
+}
+
+@media screen and (max-width : 360px){
+    .corecapabilities .main .bottom .col2{
+        background-size:contain;
+        order: -1;
+        position: relative;
+        left: 6%;
+    }    
 }

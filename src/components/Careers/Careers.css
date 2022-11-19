@@ -130,7 +130,32 @@
     height: 23.9rem;
 } */
 
+
+/* Responsiveness */
+@media screen and (max-width : 1200px){
+    .careers .main .bottom a .box .boxtop{
+        width:auto;
+    }
+    
+    
+    .careers .main .bottom a .box .boxbottom{
+        font-size: 1.2rem;
+    }
+
+    .careers .main .bottom a .box .boxtop .boxheading{
+        font-size: 1.8rem;
+    } 
+}
+
 @media screen and (max-width : 800px) {
+    .careers{
+        height: 256rem;
+    }
+
+    .careers .main{
+        height: 249rem;
+    }
+
     .careers .main .bottom{
         flex-direction: column;
     }
@@ -148,4 +173,33 @@
     .careers .main .bottom a{
         width: 100%;
     }
+}
+
+@media screen and (max-width : 480px){
+    .careers{
+        height: 248rem;
+    }
+
+    .careers .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 240rem;
+        width: 80%;
+    }
+
+    .careers .main .bottom a .box .boxtop{
+        /* width: 75%; */
+    }
+
+    .careers .main .bottom a .box .boxbottom{
+        font-size: 10px;
+        /* left: 14%; */
+    }
+
+    .careers .main .bottom a .box .boxtop .boxheading{
+        font-size: 14px;
+    }     
+    
 }
