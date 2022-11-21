@@ -132,3 +132,22 @@
         height: 16rem;
     }
 }
+
+@media screen and (max-width : 480px){
+    .whatdoyou{
+        width: 100%;
+        height: 324px;
+    }
+
+    .whatdoyou .main{
+        height: 62%;
+    }
+
+    .whatdoyou .main .bottom{
+        height: 19rem;
+    }
+
+    .whatdoyou .main .bottom .content{
+        width: 48.2rem;
+    }
+}

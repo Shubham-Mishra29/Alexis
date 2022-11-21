@@ -228,3 +228,45 @@
     }
 }
 
+@media screen and (max-width : 480px){
+    .contact-us .content3{
+        height: 925px;
+    }
+    
+    .contact-us .content3 .main{
+        height: 90%;
+    }
+
+    .contact-us .content3 .main .box{
+        width: 326px;
+        height: 234px;
+        align-items: center;
+    }
+
+    .contact-us .content3 .main .box .address{
+        top: 0;
+        height: 60%;
+    }
+    
+    .contact-us .content3 .main .box .phone{
+        top: 0;
+        height: 60%;
+    }
+
+    .contact-us .content3 .main .box .message{
+        top: 0;
+        height: 60%;
+    }
+
+    .contact-us .content3 .main .box .address .top{
+        height: 66%;
+    }
+
+    .contact-us .content3 .main .box .phone .top{
+        height: 66%;
+    }
+
+    .contact-us .content3 .main .box .message .top{
+        height: 66%;
+    }
+}

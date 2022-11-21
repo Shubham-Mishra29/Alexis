@@ -201,6 +201,10 @@
   .nav .outer{
     width: 100%;
   }
+
+  .nav_colorChange .outer{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width : 665px){
@@ -256,5 +260,9 @@
     width: 100%;
     /* width: 50rem; */
     z-index: 2;
+  }
+
+  .nav_colorChange .activenavmenu .menuitems li{
+    list-style : none;
   }
 }

@@ -296,6 +296,24 @@
 }
 
 /* Responsiveness */
+@media screen and (max-width : 1400px){
+    .footer .bottom div{
+        /* width: 25%; */
+        width: 350px;
+    } 
+
+    .footer .top .footerinfo .social .content{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width : 600px){
+    .footer .top .footerinfo{
+        width: 92%;
+    }
+
+}
+
 @media screen and (max-width : 480px){
     .footer{
         height: 800px;

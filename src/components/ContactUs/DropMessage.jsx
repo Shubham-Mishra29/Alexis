@@ -121,7 +121,7 @@ const validateEmail = (e) => {
                     >
                     {validmessage}
                     </span>                
-                <div >
+                <div id ='messageText'>
                 <textarea className="messageText" name="" id="" cols="30" rows="10" placeholder='Message*' value={Message} onChange = {(e) => setMessage(e.target.value)}></textarea>
                 </div>
                 <div className="messagebox"><button className='sendmsg' onClick={handleSubmit}><span>Send message</span></button></div>

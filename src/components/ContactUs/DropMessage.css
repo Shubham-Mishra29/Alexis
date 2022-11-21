@@ -234,3 +234,18 @@ input ::placeholder, ::placeholder{
         /* width: 40rem; */
     }
 }
+
+@media screen and (max-width : 480px){
+    .dropmessage .main .bottom .nameandemail .name{
+        width: 65%;
+    }
+
+    .dropmessage .main .bottom .nameandemail .email{
+        width: 65%;
+    }
+
+    
+    .dropmessage .main .bottom #messageText{
+        width: 45rem;
+    }
+}
