@@ -17,6 +17,43 @@ const Navbar = () => {
     const [colorChange, setColorchange] = useState(false);
     const [active, setActive] = useState(false);
 
+    // const [navstyle, setnavstyle] = useState({})
+
+    // const changeNavstyle = () =>{
+
+    //   if (window.scrollY >= 200){
+    //     setnavstyle({
+    //       position: "fixed",
+    //       top : "12%",
+    //       display: "block",
+    //       width: "100%",
+    //       height: "66.1rem",
+    //       background: "#4D0043",
+    //       /* top: 12%; */
+    //       transition: "left 1s",
+    //       left: "0",
+    //       zIndex: "1",
+    //     })
+    //   }
+
+    //   else{
+    //     setnavstyle({
+    //       position: "absolute",
+    //       top : "90%",
+    //       display: "block",
+    //       width: "100%",
+    //       height: "66.1rem",
+    //       background: "#4D0043",
+    //       /* top: 12%; */
+    //       transition: "left 1s",
+    //       left: "0",
+    //       zIndex: "1",
+    //     })
+    //   }
+
+    // }
+
+
     const showNavbar = () =>{
         setActive(!active)
     }
@@ -29,6 +66,7 @@ const Navbar = () => {
       }
     };
     window.addEventListener("scroll", changeNavbarColor);
+    // window.addEventListener("scroll", changeNavstyle);
 
   return (
     <div className="Navbar">

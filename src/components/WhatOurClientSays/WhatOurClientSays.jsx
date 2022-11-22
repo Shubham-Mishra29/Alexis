@@ -13,7 +13,7 @@ const WhatOurClientSays = () => {
         </div>
         <div className="bottom">
           <Carousel images={firstCarouselData} flag = "0"/>
-          <Carousel images={secondCarouselData} flag = "1"/>
+          <Carousel images={secondCarouselData} flag = "1" />
         </div>
       </div>
     </div>

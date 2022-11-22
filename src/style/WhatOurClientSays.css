@@ -1,6 +1,6 @@
 .whatourclientsays{
     width: 100%;
-    height: 972px;
+    height: 97.2rem;
     background: #F5F5F5;
     display: flex;
     align-items: center;
@@ -9,7 +9,7 @@
 
 .whatourclientsays .main{
     width: 100%;
-    height: 748px;
+    height: 74.8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,17 +20,17 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-between;    
-    height: 55px;   
+    height: 5.5rem;   
 }
 
 .whatourclientsays .main .top .heading{
-    width: 397px;
-    height: 38px;
+    width: 39.7rem;
+    height: 3.8rem;
     
     font-family: 'Lato';
     font-style: normal;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 3.2rem;
     line-height: 120%;
     /* or 38px */
     
@@ -42,8 +42,8 @@
 }
 
 .whatourclientsays .main .top .bar{
-    width: 94px;
-    height: 3px;    
+    width: 9.4rem;
+    height: .3rem;    
     /* Primary */
     
     background: #4D0043;   
@@ -53,7 +53,7 @@
 
 .whatourclientsays .carousel {
     display: flex;
-    height: 318px;
+    height: 31.8rem;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -79,10 +79,10 @@
   }
 
 .whatourclientsays  .carousel_wrapper .slide .content .contentbox{
-    padding-top: 20px;
-    padding-left: 50px;
+    padding-top: 2rem;
+    padding-left: 5rem;
     width: 100%;
-    height: 182px;
+    height: 18.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -90,20 +90,21 @@
 
   .whatourclientsays  .carousel_wrapper .slide .content .contentbox .title{
     display: flex;
-    width: 44%;
+    /* width: 44%; */
+    width: 24.7rem;
     justify-content: space-between;
     position: relative;
     left: -5%;
   }
 
   .whatourclientsays  .carousel_wrapper .slide .content .contentbox .text{
-    width: 518px;
-    height: 80px;
+    width: 51.8rem;
+    height: 8rem;
     
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 140%;
     /* or 20px */
     
@@ -115,18 +116,19 @@
 
 .whatourclientsays  .carousel_wrapper .slide .content .contentbox .nameandcountry{
     display: flex;
-    width: 29%;
+    /* width: 29%; */
+    width: 15rem;
     justify-content: space-between;
   }
 
  .whatourclientsays  .carousel_wrapper .slide .content .contentbox .name{
-  width: 72px;
-  height: 20px;
+  width: 7.2rem;
+  height: 2rem;
   
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 140%;
   /* identical to box height, or 20px */
   
@@ -137,13 +139,13 @@
  }  
 
  .whatourclientsays  .carousel_wrapper .slide .content .contentbox .country{
-  width: 76px;
-  height: 20px;
+  width: 7.6rem;
+  height: 2rem;
   
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 140%;
   /* identical to box height, or 20px */
   
@@ -154,13 +156,13 @@
  }
 
 .whatourclientsays  .carousel_wrapper .slide .content .heading{
-    width: 218px;
-    height: 28px;
+    width: 21.8rem;
+    height: 2.8rem;
 
     font-family: 'Lato';
     font-style: normal;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 140%;
     /* identical to box height, or 28px */
     
@@ -204,7 +206,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     display: flex;
-    padding: 40px 30px;
+    padding: 4rem 3rem;
     /* align-items: flex-end; */
   }
   
@@ -212,43 +214,43 @@
 .whatourclientsays  .carousel_arrow_left,
 .whatourclientsays  .carousel_arrow_right {
     position: absolute;
-    font-size: 40px;
+    font-size: 4rem;
     top: 50%;
     transform: translate(0, -50%);
     background-color: gainsboro;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
-    padding-bottom: 7px;
+    padding-bottom: .7rem;
     cursor: pointer;
   }
   
 .whatourclientsays  .carousel_arrow_left {
-    left: 15px;
+    left: 1.5rem;
   }
   
  .whatourclientsays .carousel_arrow_right {
-    right: 15px;
+    right: 1.5rem;
   }
   
 .whatourclientsays  .carousel_pagination {
     position: absolute;
-    bottom: 20px;
+    bottom: 2rem;
     left: 50%;
     transform: translate(-50%, 0);
   }
   
 .whatourclientsays  .pagination_dot {
-    height: 16px;
-    width: 16px;
+    height: 1.6rem;
+    width: 1.6rem;
     background: black;
     background: #A7A7A7;
     border-radius: 50%;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 1rem;
     cursor: pointer;
   }
   
@@ -259,3 +261,116 @@
 .whatourclientsays .pagination_dot-active {
     background-color: blue;
   }
+
+
+@media screen and (max-width : 1440px){
+  .whatourclientsays .carousel_wrapper .slide img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .whatourclientsays .carousel_wrapper .slide .content .contentbox{
+    height: 20rem;
+  }
+
+  .whatourclientsays .carousel_wrapper .slide .content .contentbox .text{
+    width: 90%;
+    height: 50%;
+  }
+}
+
+
+@media screen and (max-width : 1010px){
+  .whatourclientsays .carousel_wrapper .slide .content .contentbox{
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width : 620px){
+  .whatourclientsays .carousel_wrapper .slide .content .contentbox{
+    height: 30rem;
+  }
+}
+
+
+@media screen and (max-width : 480px){
+  .whatourclientsays .carousel{
+    width: 100%;
+    height: 448px;
+  }
+
+  .whatourclientsays .carousel_wrapper{
+    width: 100%;
+  }
+
+  .whatourclientsays .main .bottom > div:nth-child(2){
+    display: none;
+  }
+
+  .whatourclientsays .carousel_card-active{
+    /* height: 100%; */
+  } 
+
+  .whatourclientsays .carousel_wrapper .slide{
+    flex-direction: column;
+    /* height: 100%; */
+  }
+  
+  .whatourclientsays .carousel_wrapper .slide .content{
+    width: 90%;
+  }
+
+    
+  .whatourclientsays .carousel_wrapper .slide .content .heading{
+    width: 26.8rem;
+    font-size: 18px;
+  }
+
+  .whatourclientsays .carousel_wrapper .slide .content .contentbox{
+    height: 26rem;
+  }
+
+  .whatourclientsays .carousel_wrapper .slide .content .contentbox .title{
+    left: -10%;
+    width: 30.7rem;
+  } 
+  
+  .whatourclientsays .carousel_wrapper .slide .content .contentbox .text{
+    font-size: 12px;
+  }
+
+  .whatourclientsays .carousel_wrapper .slide .content .contentbox .nameandcountry{
+    width: 17rem;
+  } 
+
+  .whatourclientsays .carousel_wrapper .slide .content .contentbox .name{
+    width: 9.2rem;
+    font-size: 12px;
+  } 
+
+  .whatourclientsays .carousel_wrapper .slide .content .contentbox .country{
+    font-size: 12px;
+  } 
+
+  .whatourclientsays .card_image{
+    width: 90%;
+  } 
+}
+
+/* @media screen and (max-width : 500px) */
+
+
+@media screen and (max-width : 356px){
+  .whatourclientsays .carousel_wrapper .slide .content{
+    width: 78%;
+  }
+
+  .whatourclientsays .card_image{
+    width: 78%;
+    height: 50%;
+  }
+
+  .whatourclientsays .carousel_wrapper .slide .content .contentbox .text{
+    height: 50%;
+  }
+}
