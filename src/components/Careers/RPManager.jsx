@@ -85,6 +85,8 @@ const [validmessage, setValidMessage] = useState("");
 
                         <div className="jobHeading">Job Introduction</div>
                         <br />
+                        
+                        <div className="jobdesc">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                         It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -106,9 +108,13 @@ const [validmessage, setValidMessage] = useState("");
                         3. &nbsp; Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry <br /> <br />
                         4. &nbsp; Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry <br /> <br />
                         5. &nbsp; Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry <br /> <br />
+                         <br /><br /><br />
+                        <center><div className="hr" ></div></center>
 
-                        <br /><br /><br />
-                        <center><div className="hr" style={{width : "79.2rem", border: "0.01rem solid #E0E0E0", marginTop : "1.1rem"}}></div></center>
+
+                        </div>
+
+                       
                     </div>
                     <div className="right">
                         <br />
@@ -229,13 +235,13 @@ const [validmessage, setValidMessage] = useState("");
                     <br />
 
                     <div style={{
-                        width: "542px",
-                        height: "38px",
+                        width: "54.2rem",
+                        height: "3.8rem",
 
                         fontFamily: 'Lato',
                         fontStyle: "normal",
                         fontWeight: "800",
-                        fontSize: "32px",
+                        fontSize: "3.2rem",
                         lineHeight: "120%",
 
                         color: "#272C35",
