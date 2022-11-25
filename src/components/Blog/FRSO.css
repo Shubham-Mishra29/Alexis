@@ -510,3 +510,262 @@
     
     color: #FFFFFF;   
 }
+
+
+@media screen and (max-width: 1440px){
+    .frso .main{
+        width: 90%;
+    }
+
+    .frso .main .top .left .blogauthor{
+        width: 100%;
+        /* height: 27rem; */
+    }
+
+    .frso .main .top .right{
+        /* height: 134.2rem; */
+    } 
+
+
+    .frso .main .right .search .searchBar{
+        width: 74%;
+    }
+    
+    .frso .main .right .search input[type=text]{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width: 1200px){
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent{
+        width: 75%;
+    } 
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent .desc{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .frso .main .top{
+        overflow: scroll;
+    } 
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent{
+        width: 68%;
+    }
+    
+}
+
+@media screen and (max-width: 890px){
+    .frso{
+        /* height: 300rem; */
+        height: 308rem;
+    }
+
+    .frso .main{
+        height: 296rem;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+    } 
+
+
+
+    .frso .main .top{
+        flex-direction: column;
+        overflow: revert;
+        height: 201rem;
+        /* height: 210rem; */
+        align-items: center;
+    }
+
+    .frso .main .top .left{
+        /* width: 100%; */
+        width: 80rem;
+        /* height: 80rem; */
+        /* height: 185rem; */
+    }
+
+    .frso .main .top .right{
+        height: 82.2rem;
+        width: 60%;
+    } 
+
+
+    .frso .main .bottom .form{
+        width: 100%;
+    } 
+
+    .frso .main .bottom .form .nameandemail{
+        width: 100%;
+    }
+
+    .frso .main .bottom .form .nameandemail .name, .email{
+        width: 46%;
+    }
+    
+    .frso .main .bottom .form .messageText{
+        width: 100%;
+    } 
+
+}
+
+/* @media screen and (max-width: 890px){
+    .frso{
+        height: 310rem;
+    }
+} */
+
+@media screen and (max-width: 770px){
+    .frso {
+        /* height: 300rem; */
+        height: 313rem;
+    }
+
+    .frso .main {
+        height: 305rem;
+    }    
+
+    .frso .main .bottom .commenter{
+        width: 100%;
+    }
+
+    .frso .main .bottom .commenter .commentercontent{
+        /* width: 90%; */
+    }
+
+    .frso .main .bottom .commenter .commentercontent .leftcontent img{
+        max-width: 100%;
+    }
+
+    .frso .main .bottom .commenter .commentercontent .rightcontent{
+        width: 72%;
+    } 
+
+    .frso .main .bottom .commenter .commentercontent .rightcontent .comment{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .frso .main .top .left{
+        width: 100%;
+    } 
+
+
+    .frso .main .bottom .commenter{
+        height: 29.3rem;
+    }
+
+    .frso .main .bottom .commenter .commentercontent .rightcontent {
+        width: 65%;
+        height: 26rem;
+    }
+
+    .frso .main .bottom .commenter .commentercontent .rightcontent .comment {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 415px){
+    .frso {
+        height: 342rem;
+    }
+
+    .frso .main {
+        height: 335rem;
+    }
+
+    .frso .main .top {
+        height: 213rem;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent {
+        position: relative;
+        top: -20%;
+    }
+
+    
+    .frso .main .bottom .form{
+        height: 53rem;
+    }
+
+    .frso .main .bottom .form .nameandemail{
+        height: 28%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .frso .main .bottom .form .nameandemail .name, .email{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    .frso{
+        height: 351rem;
+    } 
+
+    .frso .main{
+        height: 347rem;
+    }
+
+    .frso .main .top{
+        height: 226rem;
+    } 
+
+    .frso .main .bottom{
+        /* height: 100rem; */
+    } 
+
+    .frso .main .top .left{
+        width: 90%;
+    }
+
+    .frso .main .top .left img{
+        max-width: 100%;
+    } 
+
+    .frso .main .bottom .commenter .commentercontent .leftcontent img{
+        max-width: 90%;
+    }
+
+    .frso .main .bottom .commenter .commentercontent .rightcontent .comment{
+        height: 13.3rem;
+    }
+
+    .frso .main .top .left .blogauthor{
+        height: 30rem;
+        position: relative;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent{
+        position: absolute;
+        top: 6%;
+    }
+    
+    .frso .main .top .right{
+        width: 80%;
+    }
+
+    .frso .main .bottom .form{
+        height: 53rem;
+    }
+
+
+
+    .frso .main .bottom .form .nameandemail{
+        height: 28%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .frso .main .bottom .form .nameandemail .name, .email{
+        width: 100%;
+    }
+}
+
