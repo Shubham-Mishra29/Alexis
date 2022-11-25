@@ -234,20 +234,10 @@ const [validmessage, setValidMessage] = useState("");
 
                     <br />
 
-                    <div style={{
-                        width: "54.2rem",
-                        height: "3.8rem",
-
-                        fontFamily: 'Lato',
-                        fontStyle: "normal",
-                        fontWeight: "800",
-                        fontSize: "3.2rem",
-                        lineHeight: "120%",
-
-                        color: "#272C35",
-                        }}>
+                        <div className='subhead'>
                         Great! Submit your application below.
                         </div>
+
                         <br /><br />
 
                         <form action="" onSubmit={handleSubmit} className="form"> 
@@ -256,7 +246,7 @@ const [validmessage, setValidMessage] = useState("");
                             <input type="text" name="lname" id="" className='lname' placeholder='Last Name*' value={lName} onChange = {(e) => setlName(e.target.value)}  autoComplete='off' />
                         </div>
 
-                        <input type="text" name='email*' className='email' placeholder='Email*' value={Email} onChange={(e) => validateEmail(e)} autoComplete='off'/>
+                        <input type="text" name='email*' className='email' placeholder='Email Id*' value={Email} onChange={(e) => validateEmail(e)} autoComplete='off'/>
                         
                         <input type="text" name="phoneno" id="" className='phoneno' placeholder='Phone Number*' value={PhoneNo} onChange = {(e) => setPhoneNo(e.target.value)} autoComplete='off'/>
                         

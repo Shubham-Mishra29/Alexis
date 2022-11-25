@@ -280,6 +280,19 @@
     width: 21rem;
 }
 
+.rpmanager .main .bottom .subhead{
+    width: 54.2rem;
+    height: 3.8rem;
+
+    font-family: Lato;
+    font-size: normal;
+    font-weight: 800;
+    font-size: 3.2rem;
+    line-height: 120%;
+
+    color: #272C35;
+}
+
 .rpmanager .main .bottom .interest .interestHeading{
     width: 15.7rem;
     height: 3.8rem;
@@ -603,44 +616,6 @@
 }
 
 
-
-@media screen and (max-width : 80px){
-    .rpmanager{
-        /* height: 291rem; */
-        height: 2112px;
-        /* height: 275rem; */
-    }
-
-    .rpmanager .main{
-        /* height: 283rem; */
-        height: 2073px;
-        /* height: 268rem; */
-    }
-
-    .rpmanager .main .top{
-        /* height: 202rem; */
-        height: 1580px;
-        /* height: 175rem; */
-    }
-
-    .rpmanager .main .top .left{
-        width: 90%;
-        /* height: 1356px; */
-    }
-
-    .rpmanager .main .top .right{
-        height: 82.8rem;
-        /* height: 712px; */
-    }
-
-    .rpmanager .main .bottom{
-        /* height: 115rem; */
-        /* height: 96rem; */
-        height: 960px;
-    }
-}
-
-
 @media screen and (max-width : 414px){
     .rpmanager{
         height: 318rem;
@@ -662,6 +637,37 @@
         width: 85%;
     }
 
+    .rpmanager .main .top .right .jobCatergory{
+        font-size: 20px;
+    }
+
+    .rpmanager .main .top .right .categories{
+        margin-left: 6rem;
+    }
+
+    .rpmanager .main .top .right a{
+        font-size: 14px;
+        width: 15rem;
+    } 
+
+    .rpmanager .main .top .right .search .searchHeading{
+        font-size: 20px;
+    }
+
+    .rpmanager .main .top .right .recentJobs .recentJobList{
+        margin-left: 6.5rem;
+    }
+
+    .rpmanager .main .top .right .recentJobs .recentJobList a{
+        width: 23rem;
+    } 
+
+    .rpmanager .main .bottom .subhead{
+        /* font-size: 2.8rem; */
+        width: 90%;
+        height: 5.8rem;
+    }
+
     .rpmanager .main .bottom .form .fullname{
         flex-direction: column;
         justify-content: space-between;
@@ -675,6 +681,24 @@
     .rpmanager .main .bottom .form .fullname .lname{
         width: 100%;
     }
+
+    .rpmanager .main .bottom .form .fullname + input::placeholder{
+        font-size: 14px;
+    }
+    
+
+    .rpmanager .main .bottom .form input:nth-child(3)::placeholder{
+        font-size: 14px;
+    }
+
+    .rpmanager .main .bottom .form .consent div{
+        width: 51rem;
+    }
+
+    .rpmanager .main .bottom .form .submit{
+        width: 27.4rem;
+        font-size: 1.8rem;
+    } 
 }
 
 
@@ -703,6 +727,11 @@
 
     }
 
+    .rpmanager .main .bottom .subhead{
+        width: 100%;
+        /* height: 5.8rem; */
+    }
+
     .rpmanager .main .bottom .form .fullname{
         flex-direction: column;
         justify-content: space-between;
@@ -717,7 +746,21 @@
         width: 100%;
     }
 
-    .rpmanager .main .bottom .interest > div{
-        font-size: 1.8rem;
+    .rpmanager .main .bottom .form .consent div{
+        width: 44rem;
     }
+
 }
+
+/* style={{
+    width: "54.2rem",
+    height: "3.8rem",
+
+    fontFamily: 'Lato',
+    fontStyle: "normal",
+    fontWeight: "800",
+    fontSize: "3.2rem",
+    lineHeight: "120%",
+
+    color: "#272C35",
+    }} */
