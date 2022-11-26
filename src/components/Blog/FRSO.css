@@ -683,9 +683,71 @@
         height: 213rem;
     }
 
+    .frso .main .top .left .bloginfo{
+        width: 210px;
+        align-items: baseline;
+    }
+
+    .frso .main .top .left .bloginfo .date{
+        width: 81px;
+        font-size: 14px;
+    }
+
+    .frso .main .top .left .bloginfo .comments{
+        font-size: 14px;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent .leftcontent img{
+        max-width: 90%;
+    }
+
     .frso .main .top .left .blogauthor .authorcontent .rightcontent {
         position: relative;
         top: -20%;
+    }
+
+    .frso .main .right .blogCategory{
+        font-size: 20px;
+    }
+
+    .frso .main .right .blogcategories{
+        margin-left: 120px;
+    }
+
+    .frso .main .right .search .searchHeading{
+        font-size: 20px;
+    }
+
+    .frso .main .right a{
+        font-size: 12px;
+        width: 262px;
+    }
+
+    .frso .main{
+        position: relative;
+    }
+
+    .frso .main .top .right{
+        position: relative;
+        bottom: -56%;
+        width: 90%;
+    }
+
+    .frso .main .bottom{
+        position: relative;
+        bottom: 20%;
+    }
+
+    .frso .main .bottom .addcmt{
+        font-size: 18px;
+    }
+
+    .frso .main .bottom .commenter .commentercontent .leftcontent img{
+        max-width: 90%;
+    }
+
+    .frso .main .bottom .commenter .commentercontent .rightcontent .comment{
+        height: 13.3rem;
     }
 
     
@@ -702,6 +764,28 @@
     .frso .main .bottom .form .nameandemail .name, .email{
         width: 100%;
     }
+
+    .frso .main .bottom .form .postcmt{
+        justify-content: flex-start;
+    }
+
+    .frso .main .bottom .form .submit span{
+        width: 147px;
+        height: 16px;
+        font-size: 14px;
+    }
+    
+    .frso .main .bottom .form .submit{
+        width: 196px;
+        height: 45px;
+    } 
+}
+
+
+@media screen and (max-width: 376px){
+    /* .frso .main .bottom .commenter .commentercontent .rightcontent .comment{
+        height: 13.3rem;
+    } */
 }
 
 @media screen and (max-width: 360px){
@@ -717,6 +801,7 @@
     .frso .main .top{
         height: 226rem;
     } 
+    
 
     .frso .main .bottom{
         /* height: 100rem; */
@@ -726,8 +811,13 @@
         width: 90%;
     }
 
-    .frso .main .top .left img{
-        max-width: 100%;
+    .frso .main .top .right{
+        bottom: -51.5%;
+        width: 90%;
+    }
+
+   .frso .main .bottom .commenter .commentercontent .leftcontent img{
+        max-width: 90%;
     } 
 
     .frso .main .bottom .commenter .commentercontent .leftcontent img{
@@ -746,6 +836,10 @@
     .frso .main .top .left .blogauthor .authorcontent{
         position: absolute;
         top: 6%;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent{
+        top: 0;
     }
     
     .frso .main .top .right{
