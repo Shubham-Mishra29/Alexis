@@ -296,8 +296,15 @@
 }
 
 @media screen and (max-width : 480px){
-  .social_media{
+  .carousel .social_media{
     right: 0;
+    /* top: 25%; */
+    top: 170px;
+  }
+
+  .card_content a img{
+    width: 26px;
+    height: 25.08px;
   }
 
   .carousel{

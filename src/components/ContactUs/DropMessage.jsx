@@ -132,5 +132,4 @@ const validateEmail = (e) => {
   )
 }
 
-
 export default DropMessage

@@ -109,4 +109,9 @@
     .quotes .main .content{
         width: 49rem;
     }
+
+    .quotes .main .button{
+        background: #5772FF;
+        color: #FFFFFF;
+    }
 }

@@ -62,6 +62,8 @@
     .template .social_media{
         /* right: 36.9%; */
         right: 0;
+        /* top: 35%; */
+        top: 170px;
         z-index: 3;
     }
 
@@ -72,8 +74,13 @@
     }
 
     .template .main{
-        height: 35%;
+        /* height: 35%; */
+        height: 26%;
         position: relative;
         top: 10%;
+    }
+
+    .template .main .top{
+        font-size: 40px;
     }
 }

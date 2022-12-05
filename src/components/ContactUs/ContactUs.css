@@ -206,6 +206,10 @@
     color: #5772FF;    
 }
 
+.contact-us .mobileMap .map{
+    display: none;
+}
+
 
 /* Responsive */
 
@@ -268,5 +272,13 @@
 
     .contact-us .content3 .main .box .message .top{
         height: 66%;
+    }
+
+    .contact-us .desktopMap .map{
+        display: none;
+    }
+
+    .contact-us .mobileMap .map{
+        display: block;
     }
 }

@@ -11,9 +11,14 @@ const ContactUs = () => {
   return (
     <div className='contact-us'>
         <Template name = "Contact Us"/>
+        <div className="mobileMap">
+          <Map/>
+        </div>
         <Content3/>
         <DropMessage/>
-        <Map/>
+        <div className="desktopMap">
+           <Map/>
+        </div>
         <Footer/>
         <BackToTopButton/>
     </div>
