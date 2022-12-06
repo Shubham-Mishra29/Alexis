@@ -497,7 +497,25 @@
     } 
 }
 
-@media screen and (max-width : 1200px){
+@media screen and (max-width : 1274px){
+    .rpmanager .main .top .right .search .searchBar{
+        width: 85%;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width : 1236px){
+    .rpmanager .main .top .right .search .searchBar{
+        width: 87%;
+        margin-left: 1.5rem;
+    }
+}
+
+/* @media screen and (max-width : 1226px){
+
+} */
+
+@media screen and (max-width : 1226px){
     .rpmanager .main{
         width: 90%;
     }

@@ -211,6 +211,28 @@
         width: 80%;
     }
 
+    .careers .main .top{
+        height: 4.5rem;
+    }
+
+    .careers .main .top .heading{
+        width: 191px;
+        height: 22px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 120%;
+        /* identical to box height, or 22px */
+        
+        letter-spacing: 0.02em;
+        
+        /* text-color */
+        
+        color: #252B42;        
+    }
+
     .careers .main .bottom a .box .boxtop{
         /* width: 75%; */
     }
@@ -221,7 +243,10 @@
     }
     
     .careers .main .bottom a .box .boxtop .boxheading{
-        font-size: 14px;
+        /* font-size: 14px; */
+        font-size: 12px;
+
+
     }     
     
 }
