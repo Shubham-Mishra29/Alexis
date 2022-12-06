@@ -222,11 +222,11 @@
         font-family: 'Lato';
         font-style: normal;
         font-weight: 800;
-        font-size: 18px;
-        /* font-size: 14px; */
+        /* font-size: 18px; */
+        font-size: 14px;
         line-height: 120%;
         /* identical to box height, or 22px */
-        /* text-align: center; */
+        text-align: center;
         letter-spacing: 0.02em;
         
         /* text-color */
