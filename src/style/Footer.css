@@ -373,7 +373,8 @@
         font-family: 'Lato';
         font-style: normal;
         font-weight: 800;
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size: 5px;
         line-height: 32px;
         /* identical to box height, or 178% */
         
@@ -401,6 +402,6 @@
 
 @media screen and (max-width : 360px){
     .footer .top .footerinfo .contactus .heading{
-        font-size: 5px;
+        /* font-size: 5px; */
     }
 }
