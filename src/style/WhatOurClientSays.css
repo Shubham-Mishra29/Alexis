@@ -322,29 +322,34 @@
 
     
   .whatourclientsays .carousel_wrapper .slide .content .heading{
-    width: 26.8rem;
+    /* width: 26.8rem; */
+    width: 30.8rem;
     font-size: 18px;
   }
 
   .whatourclientsays .carousel_wrapper .slide .content .contentbox{
-    height: 26rem;
+    /* height: 26rem; */
+    height: 28rem;
   }
 
   .whatourclientsays .carousel_wrapper .slide .content .contentbox .title{
     left: -10%;
-    width: 30.7rem;
+    width: 35.7rem;
   } 
   
   .whatourclientsays .carousel_wrapper .slide .content .contentbox .text{
     font-size: 12px;
+    height: 60%;
   }
 
   .whatourclientsays .carousel_wrapper .slide .content .contentbox .nameandcountry{
-    width: 17rem;
+    /* width: 17rem; */
+    width: 20rem;
   } 
 
   .whatourclientsays .carousel_wrapper .slide .content .contentbox .name{
-    width: 9.2rem;
+    /* width: 9.2rem; */
+    width: 100%;
     font-size: 12px;
   } 
 
@@ -371,6 +376,6 @@
   }
 
   .whatourclientsays .carousel_wrapper .slide .content .contentbox .text{
-    height: 50%;
+    /* height: 50%; */
   }
 }

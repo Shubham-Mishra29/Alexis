@@ -246,6 +246,31 @@
     .corecapabilities .main{
         height: 90%;
     }
+
+    .corecapabilities .main .top{
+        width: 100%;
+        height: 6.5rem;
+    }
+
+    .corecapabilities .main .top .heading{
+        /* width: 202px; */
+        width: 100%;
+        height: 24px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        line-height: 120%;
+        /* identical to box height, or 24px */
+        
+        letter-spacing: 0.02em;
+        
+        /* text-color */
+        
+        color: #252B42;        
+    }
     
     .corecapabilities .main .bottom{
         width: 100%;

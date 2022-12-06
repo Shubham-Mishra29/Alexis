@@ -93,6 +93,25 @@
         /* flex-wrap: nowrap; */
     }
 
+    .clients .main .top{
+        width: 100%;
+
+    }
+
+    .clients .main .top .heading{
+        /* width: 234px; */
+        width: 100%;
+        height: 24px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #252B42;        
+    }
+
     .clients .main .bottom .logo1 img{
         /* width: 100px;
         height: 100px; */
