@@ -681,6 +681,27 @@
         height: 120px;
     }
 
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent .about{
+        width: 100%;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent .name{
+        width: 100%;
+        height: 22px;
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+
+
+        /* text */
+
+        color: #272C35;
+    }
+
     .frso .main .bottom .noOfcmts{
         /* width: 121px; */
         width: 100%;
@@ -742,6 +763,8 @@
         
         color: #FFFFFF;        
     }
+
+    
 }
 
 @media screen and (max-width: 432px){
