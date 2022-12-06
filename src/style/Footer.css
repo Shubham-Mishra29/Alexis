@@ -343,12 +343,43 @@
         height: 100px;
     }
 
+    .footer .top .footerinfo .aboutus .heading{
+        width: 92px;
+        height: 22px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 120%;
+        
+        
+        color: #FFFFFF;        
+    } 
+    
+
     .footer .top .footerinfo .info{
         height: 180px;
     }
 
     .footer .top .footerinfo .contactus{
         height: 150px;
+    }
+
+    .footer .top .footerinfo .contactus .heading{
+        width: 113px;
+        height: 32px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 32px;
+        /* identical to box height, or 178% */
+        
+        letter-spacing: 0.1px;
+        
+        color: #FFFFFF;       
     }
 
     .footer .top .footerinfo .social{
@@ -363,4 +394,6 @@
     .footer .bottom div{
         width: 80%;
     }
+
+
 }

@@ -667,8 +667,73 @@
     .frso .main .bottom .commenter .commentercontent .rightcontent .comment {
         width: 100%;
     }
+
+    
 }
 
+
+@media screen and (max-width: 480px){
+    .frso .main .bottom .noOfcmts{
+        width: 121px;
+        height: 25px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 140%;
+        /* or 25px */
+        
+        text-transform: uppercase;
+        
+        /* text */
+        
+        color: #272C35;        
+    }
+
+    .frso .main .bottom .form .postcmt{
+        justify-content: flex-start;
+    }
+
+    .frso .main .bottom .form .submit{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 8px;
+        
+        width: 144px;
+        height: 40px;
+        
+        /* Primary */
+        
+        background: #4D0043;
+        border-radius: 27px;
+        border: none;
+    }
+
+    .frso .main .bottom .form .submit span{
+        /* width: 115px; */
+        width: -1px;
+        /* height: 18px; */
+        height: 15px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        /* font-size: 14px; */
+        font-size: 12px;
+        line-height: 130%;
+        /* or 18px */
+        
+        text-align: center;
+        
+        /* Screen Color */
+        
+        color: #FFFFFF;        
+    }
+}
 
 @media screen and (max-width: 415px){
     .frso {
@@ -765,7 +830,7 @@
         width: 100%;
     }
 
-    .frso .main .bottom .form .postcmt{
+    /* .frso .main .bottom .form .postcmt{
         justify-content: flex-start;
     }
 
@@ -778,7 +843,7 @@
     .frso .main .bottom .form .submit{
         width: 196px;
         height: 45px;
-    } 
+    }  */
 }
 
 

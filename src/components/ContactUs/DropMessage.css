@@ -248,4 +248,84 @@ input ::placeholder, ::placeholder{
     .dropmessage .main .bottom #messageText{
         width: 45rem;
     }
+
+    .dropmessage .main .top{
+        height: 5.8rem;
+    }
+
+    .dropmessage .main .top .heading{
+        width: 176px;
+        height: 24px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 120%;
+        /* identical to box height, or 24px */
+
+        letter-spacing: 0.02em;
+
+        /* text-color */
+
+        color: #252B42;
+        text-align: center;
+    }
+
+    .dropmessage .main .bottom .messagebox {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .dropmessage .main .bottom .sendmsg{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 8px;
+
+        width: 144px;
+        height: 40px;
+
+        /* Secondary */
+
+        background: #5772FF;
+        border-radius: 27px;
+        border: none;
+    }
+
+    .dropmessage .main .bottom .sendmsg span{
+        width: 104px;
+        height: 18px;
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 130%;
+        /* or 18px */
+
+        text-align: center;
+
+        /* Screen Color */
+
+        color: #FFFFFF;
+    }
+}
+
+
+@media screen and (max-width : 360px){
+    .dropmessage .main .bottom .messagebox {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .dropmessage .main .bottom .messagebox{
+        position: relative;
+        left: -22%;
+    }
 }
