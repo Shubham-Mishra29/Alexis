@@ -190,4 +190,16 @@
         padding: 16px;
         width: 144px;
     }
+
+    .whatdoyou .main .bottom .button a{
+        color: #fff;
+        font-family: Lato;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        height: 16px;
+        line-height: 130%;
+        text-align: center;
+        width: 104px;        
+    } 
 }

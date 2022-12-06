@@ -217,14 +217,20 @@ color: white;
     }
 
     .content4 .main .box1 .top{
-        width: 17.3rem;
+        width: 18.3rem;
+        left: -1.4rem;
+        top: 2.6rem;
     }
 
     .content4 .main .box2 .top{
-        width: 25.3rem;
+        width: 26.3rem;
+        left: -1.4rem;
+        top: 2.6rem;
     }
     .content4 .main .box3 .top{
-        width: 21.7rem;
+        width: 22.7rem;
+        left: -1.4rem;
+        top: 2.6rem;
     }
 
     .content4 .main .box .top .heading{
