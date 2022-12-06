@@ -6,19 +6,19 @@ export const countries = [
     {
       image: First,
       heading : "Trusted Top Tier Logistics Partner",
-      subHeading : "Loreum ipsum is dummy text.",
+      subHeading : "(Proven records for your progressive business)",
       button : "GET STARTED"
     },
     {
       image: Second,
       heading : "Trusted Top Tier Logistics Partner",
-      subHeading : "Loreum ipsum is dummy text.",
+      subHeading : "(Proven records for your progressive business)",
       button : "GET STARTED"
     },
     // {
     //   image: Third,
     //   heading : "Trusted Top Tier Logistics Partner",
-    //   subHeading : "Loreum ipsum is dummy text.",
+    //   subHeading : "(Proven records for your progressive business)",
     //   button : "GET STARTED"
     // }
   ];

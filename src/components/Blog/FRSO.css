@@ -673,8 +673,17 @@
 
 
 @media screen and (max-width: 480px){
+    .frso .main .top .left .blogauthor{
+        height: 27rem;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent {
+        height: 120px;
+    }
+
     .frso .main .bottom .noOfcmts{
-        width: 121px;
+        /* width: 121px; */
+        width: 100%;
         height: 25px;
         
         font-family: 'Lato';

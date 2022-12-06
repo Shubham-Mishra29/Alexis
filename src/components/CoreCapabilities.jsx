@@ -36,10 +36,9 @@ const CoreCapabilities = () => {
               </div>
 
               <div className="contentleft">
-                <div className="headingleft">Maintenance</div>
+                <div className="headingleft">Domestic delivery</div>
                 <div className="textleft">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                No matter where you’re shipping to, just book online and get it delivered 
                 </div>
               </div>
             </div>
@@ -61,10 +60,9 @@ const CoreCapabilities = () => {
               </div>
 
               <div className="contentleft">
-                <div className="headingleft">Maintenance</div>
+                <div className="headingleft">International delivery</div>
                 <div className="textleft">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                Browse, calculate and estimate easily for the lowest shipping rates to your overseas destination. 
                 </div>
               </div>
             </div>
@@ -87,10 +85,9 @@ const CoreCapabilities = () => {
               </div>
 
               <div className="contentleft">
-                <div className="headingleft">Maintenance</div>
+                <div className="headingleft">Handy tools</div>
                 <div className="textleft">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                From weighing a parcel, calculating delivery rates, custom packaging, & parcel tracking, we have it all!
                 </div>
               </div>
             </div>
@@ -102,10 +99,9 @@ const CoreCapabilities = () => {
           <div className="col col3">
             <div className="box box1">
               <div className="contentright">
-                <div className="headingright">Maintenance</div>
+                <div className="headingright">Ecommerce Integrations</div>
                 <div className="textright">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                You may easily integrate your online store and store your products with us.
                 </div>
               </div>
 
@@ -128,10 +124,9 @@ const CoreCapabilities = () => {
 
             <div className="box box2">
               <div className="contentright">
-                <div className="headingright">Maintenance</div>
+                <div className="headingright">Bulk Parcels</div>
                 <div className="textright">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                Sellers with large volume of shipments may easily upload orders
                 </div>
               </div>
 
@@ -154,10 +149,9 @@ const CoreCapabilities = () => {
 
             <div className="box box3">
               <div className="contentright">
-                <div className="headingright">Maintenance</div>
+                <div className="headingright">24*7 support</div>
                 <div className="textright">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                We ensure to support your business. Our support team of freight experts is on-call 24 hours a day.
                 </div>
               </div>
 

@@ -272,7 +272,8 @@ input ::placeholder, ::placeholder{
     }
 
     .dropmessage .main .bottom .messagebox {
-        width: 100%;
+        /* width: 100%; */
+        width: 65vw;
         display: flex;
         align-items: center;
         justify-content: flex-start;
@@ -316,6 +317,12 @@ input ::placeholder, ::placeholder{
     }
 }
 
+
+@media screen and (max-width : 420px){
+    .dropmessage .main .bottom .messagebox{
+        width: 75vw;
+    }
+}
 
 @media screen and (max-width : 360px){
     .dropmessage .main .bottom .messagebox {

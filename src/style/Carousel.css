@@ -78,7 +78,8 @@
 }
 
 .card_subHeading{
-  width: 63rem;
+  /* width: 63rem; */
+  width: 100%;
   height: 3.8rem;
   
   /* Headline/Headline 3 */

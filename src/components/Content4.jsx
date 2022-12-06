@@ -12,10 +12,11 @@ const Content4 = () => {
           </div>
 
           <div className="bottom">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Alexis Enterprise is currently operational in Land Transport,
+            Removals services and Shipping and postage services. We use powerful
+            logistics tools to make tracking easier and make things work
+            efficiently. We are all equally committed to deliver the service
+            that we commit.
           </div>
         </div>
 
@@ -26,10 +27,10 @@ const Content4 = () => {
           </div>
 
           <div className="bottom">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Success doesn’t come easy! What contributes to you growth is your
+            dedication and this is what makes us stand out the crowd. We are in
+            this logistic business because we love doing it every day. You’ll be
+            relaxed as WE WELCOME YOU ONBOARD.
           </div>
         </div>
 
@@ -40,10 +41,10 @@ const Content4 = () => {
           </div>
 
           <div className="bottom">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            We support from micro business and SMEs to large-scale enterprises,
+            bringing all level of logistic services under same roof. We
+            understand your requirement and customize our services accordingly,
+            and that’s how we progress.
           </div>
         </div>
       </div>
