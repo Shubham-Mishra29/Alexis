@@ -350,7 +350,8 @@
         font-family: 'Lato';
         font-style: normal;
         font-weight: 800;
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size: 14px;
         line-height: 120%;
         
         
@@ -373,8 +374,8 @@
         font-family: 'Lato';
         font-style: normal;
         font-weight: 800;
-        /* font-size: 18px; */
-        font-size: 5px;
+        font-size: 14px;
+        /* font-size: 5px; */
         line-height: 32px;
         /* identical to box height, or 178% */
         

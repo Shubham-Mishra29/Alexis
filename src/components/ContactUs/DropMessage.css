@@ -298,12 +298,13 @@ input ::placeholder, ::placeholder{
 
     .dropmessage .main .bottom .sendmsg span{
         width: 104px;
-        height: 18px;
+        height: 16px;
 
         font-family: 'Lato';
         font-style: normal;
         font-weight: 700;
-        font-size: 14px;
+        /* font-size: 14px; */
+        font-size: 12px;
         line-height: 130%;
         /* or 18px */
 
