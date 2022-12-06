@@ -364,6 +364,15 @@
 
 .rpmanager .main .bottom .form input:focus::-webkit-input-placeholder { color:transparent; }
 
+.rpmanager .main .bottom .form .fullname + input::placeholder{
+    font-size: 14px;
+}
+
+
+.rpmanager .main .bottom .form input:nth-child(3)::placeholder{
+    font-size: 14px;
+}
+
 .rpmanager .main .bottom .form .email, .phoneno{
     box-sizing: border-box;
 
@@ -634,6 +643,17 @@
 }
 
 
+@media screen and (max-width : 480px){
+    .rpmanager .main .bottom .form .fullname + input::placeholder{
+        font-size: 14px;
+    }
+    
+
+    .rpmanager .main .bottom .form input:nth-child(3)::placeholder{
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width : 414px){
     .rpmanager{
         height: 318rem;
@@ -656,16 +676,16 @@
     }
 
     .rpmanager .main .top .right .jobCatergory{
-        font-size: 20px;
+        /* font-size: 20px; */
     }
 
     .rpmanager .main .top .right .categories{
-        margin-left: 6rem;
+        /* margin-left: 6rem; */
     }
 
     .rpmanager .main .top .right a{
-        font-size: 14px;
-        width: 15rem;
+        /* font-size: 14px;
+        width: 15rem; */
     } 
 
     .rpmanager .main .top .right .search .searchHeading{
@@ -673,11 +693,11 @@
     }
 
     .rpmanager .main .top .right .recentJobs .recentJobList{
-        margin-left: 6.5rem;
+        /* margin-left: 6.5rem; */
     }
 
     .rpmanager .main .top .right .recentJobs .recentJobList a{
-        width: 23rem;
+        /* width: 23rem; */
     } 
 
     .rpmanager .main .bottom .subhead{
