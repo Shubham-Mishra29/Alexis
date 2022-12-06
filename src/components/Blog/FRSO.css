@@ -744,6 +744,31 @@
     }
 }
 
+@media screen and (max-width: 430px){
+    .frso {
+        /* height: 300rem; */
+        height: 324rem;
+    }
+
+    .frso .main {
+        height: 321rem;
+    }
+
+    .frso .main .top {
+        flex-direction: column;
+        overflow: revert;
+        height: 212rem;
+        /* height: 210rem; */
+        align-items: center;
+    }
+
+    .frso .main .top .right {
+        height: 82.2rem;
+        /* width: 60%; */
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 415px){
     .frso {
         height: 342rem;
