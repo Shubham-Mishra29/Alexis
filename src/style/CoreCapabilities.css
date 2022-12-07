@@ -287,7 +287,8 @@
         background-size:contain;
         order: -1;
         position: relative;
-        left: 10%;
+        /* left: 10%; */
+        left: 14%;
     }
     .corecapabilities .main .bottom .col3{
         order: 2;
@@ -310,11 +311,33 @@
     .corecapabilities .main .bottom .col .box .contentright{
         text-align: left;
         order: 2;
-        margin-left: 2rem;
+        /* margin-left: 2rem; */
+        padding-left: 1rem;
     }
     
     .corecapabilities .main .bottom .col .box .contentright .headingright{
         text-align: left;
+    }
+}
+
+@media screen and (max-width : 415px){
+    .corecapabilities .main .bottom .col2{
+        background-size:contain;
+        order: -1;
+        position: relative;
+        left: 11%;
+    } 
+}
+
+@media screen and (max-width : 391px){
+    .corecapabilities .main .bottom .col2{
+        left: 10%;
+    }
+}
+
+@media screen and (max-width : 376px){
+    .corecapabilities .main .bottom .col2{
+        left: 8%;
     }
 }
 
@@ -325,4 +348,10 @@
         position: relative;
         left: 6%;
     }    
+}
+
+@media screen and (max-width : 321px){
+    .corecapabilities .main .bottom .col2{
+        left: 2%;
+    }
 }

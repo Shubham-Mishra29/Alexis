@@ -217,18 +217,18 @@ color: white;
     }
 
     .content4 .main .box1 .top{
-        width: 18.3rem;
+        width: 19.3rem;
         left: -1.4rem;
         top: 2.6rem;
     }
 
     .content4 .main .box2 .top{
-        width: 26.3rem;
+        width: 27.3rem;
         left: -1.4rem;
         top: 2.6rem;
     }
     .content4 .main .box3 .top{
-        width: 22.7rem;
+        width: 23.7rem;
         left: -1.4rem;
         top: 2.6rem;
     }
@@ -239,6 +239,7 @@ color: white;
 
     .content4 .main .box .bottom{
         font-size: 14px;
-        left: 4.5rem;
+        left: 5.5rem;
+        top: 10rem;
     }
 }

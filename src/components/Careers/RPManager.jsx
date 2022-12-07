@@ -125,32 +125,32 @@ const [validmessage, setValidMessage] = useState("");
                         <br />
                         <div className="categories">
                             <a href="">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="7" height="12" viewBox="0 0 7 12"style={{marginRight : "1rem"}} fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z" fill="#4D0043"/>
                                 </svg>Job category 1
                             </a>
                             <a href="">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="7" height="12" viewBox="0 0 7 12"style={{marginRight : "1rem"}} fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z" fill="#4D0043"/>
                                 </svg>Job category 2
                             </a>
                             <a href="">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="7" height="12" viewBox="0 0 7 12"style={{marginRight : "1rem"}} fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z" fill="#4D0043"/>
                                 </svg>Job category 3
                             </a>
                             <a href="">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="7" height="12" viewBox="0 0 7 12"style={{marginRight : "1rem"}} fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z" fill="#4D0043"/>
                                 </svg>Job category 4
                             </a>
                             <a href="">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="7" height="12" viewBox="0 0 7 12"style={{marginRight : "1rem"}} fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z" fill="#4D0043"/>
                                 </svg>Job category 5
                             </a>
                             <a href="">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="7" height="12" viewBox="0 0 7 12"style={{marginRight : "1rem"}} fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z" fill="#4D0043"/>
                                 </svg>Job category 6
                             </a>
@@ -191,17 +191,17 @@ const [validmessage, setValidMessage] = useState("");
 
                             <div className="recentJobList">
                             <a href="">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="7" height="12" viewBox="0 0 7 12"style={{marginRight : "1rem"}} fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z" fill="#4D0043"/>
                                 </svg>Fleet Operator Trainer
                             </a>
                             <a href="">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="7" height="12" viewBox="0 0 7 12"style={{marginRight : "1rem"}} fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z" fill="#4D0043"/>
                                 </svg>Fleet Operator Trainer
                             </a>
                             <a href="">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="7" height="12" viewBox="0 0 7 12"style={{marginRight : "1rem"}} fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z" fill="#4D0043"/>
                                 </svg>Fleet Operator Trainer
                             </a>

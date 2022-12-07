@@ -689,7 +689,23 @@
     
 }
 
-@media screen and (max-width : 414px){
+
+@media screen and (max-width : 430px){
+    /* .rpmanager {
+        height: 295rem;
+    }
+
+    .rpmanager .main {
+        height: 288rem;
+    } */
+
+    .rpmanager .main .top .left{
+        /* width: 58rem; */
+        width: 56rem;
+    } 
+}
+
+@media screen and (max-width : 415px){
     .rpmanager{
         height: 318rem;
     }
@@ -699,15 +715,37 @@
     }
 
     .rpmanager .main .top{
-        height: 216rem;
+        /* height: 216rem; */
+        height: 212rem;
     }
 
     .rpmanager .main .top .left{
         width: 90%;
     }
 
+    .rpmanager .main .top .left .rpinfo {
+        width: 40rem;
+        align-items: baseline;
+    }
+
+    .rpmanager .main .top .left .rpinfo .date, .application {
+        width: 132px;
+        font-size: 14px;
+    }
+
+    .rpmanager .main .top .left .jobHeading{
+        font-size: 16px;
+    }
+
     .rpmanager .main .top .right{
         width: 85%;
+        position: relative;
+        bottom: -45%;
+    }
+
+    .rpmanager .main .bottom {
+        position: relative;
+        bottom: 30%;
     }
 
     .rpmanager .main .top .right .jobCatergory{
@@ -716,9 +754,13 @@
 
     .rpmanager .main .top .right .categories{
         /* margin-left: 6rem; */
+        margin-left: 120px;
     }
 
     .rpmanager .main .top .right a{
+        width: 262px;
+        font-size: 12px;
+        display: block;
         /* font-size: 14px;
         width: 15rem; */
     } 
@@ -729,10 +771,12 @@
 
     .rpmanager .main .top .right .recentJobs .recentJobList{
         /* margin-left: 6.5rem; */
+        margin-left: 99px;
     }
 
     .rpmanager .main .top .right .recentJobs .recentJobList a{
         /* width: 23rem; */
+        width: 262px;
     } 
 
     .rpmanager .main .top .right .recentJobs .recentJobHeading{
@@ -779,6 +823,33 @@
     } 
 }
 
+@media screen and (max-width : 394px){
+    .rpmanager {
+        height: 328rem;
+    }
+
+    .rpmanager .main {
+        height: 315rem;
+    }
+
+    .rpmanager .main .top {
+        height: 217rem;
+    }
+
+    .rpmanager .main .bottom {
+        bottom: 29%;
+    }
+}
+
+@media screen and (max-width : 376px){
+    .rpmanager .main .top .right{
+        bottom: -46%;
+    }
+
+    .rpmanager .main .bottom {
+        bottom: 28%;
+    }
+}
 
 @media screen and (max-width : 360px){
     .rpmanager{
@@ -799,10 +870,11 @@
 
     .rpmanager .main .top .right{
         width: 85%;
+        bottom: -42%;
     }
 
-    .rpmanager .main .bottom{
-
+    .rpmanager .main .bottom {
+        bottom: 27%;
     }
 
     .rpmanager .main .bottom .subhead{
@@ -829,6 +901,21 @@
     }
 
 }
+
+@media screen and (max-width : 321px){
+    .rpmanager {
+        height: 340rem;
+    }
+
+    .rpmanager .main {
+        height: 330rem;
+    }
+
+    .rpmanager .main .top {
+        height: 235rem;
+    }
+}
+
 
 /* style={{
     width: "54.2rem",
