@@ -320,6 +320,7 @@
     color: #898B92;   
 }
 
+
 .frso .main .bottom input:focus::-webkit-input-placeholder { color:transparent; }
 .frso .main .bottom textarea:focus::-webkit-input-placeholder { color:transparent; }
 
@@ -467,6 +468,23 @@
     
     border: .1rem solid #E6E6E6;
     border-radius: 2.4rem;    
+}
+
+.name::placeholder{
+    /* width: 55px; */
+    width: 100%;
+    text-align: left;
+}
+
+.email::placeholder{
+    /* width: 59px; */
+    width: 100%;
+    text-align: left;
+}
+
+.messageText::placeholder{
+    width: 100%;
+    text-align: left;
 }
 
 .frso .main .bottom .form .postcmt{

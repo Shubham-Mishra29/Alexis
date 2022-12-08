@@ -804,13 +804,27 @@
         width: 100%;
     }
 
+    .rpmanager .main .bottom .form .fullname .fname::placeholder{
+        width: 100%;
+        text-align: left;
+    }
+
+    .rpmanager .main .bottom .form .fullname .lname::placeholder{
+        width: 100%;
+        text-align: left;
+    }
+
     .rpmanager .main .bottom .form .fullname + input::placeholder{
         font-size: 14px;
+        width: 100%;
+        text-align: left;
     }
     
 
     .rpmanager .main .bottom .form input:nth-child(3)::placeholder{
         font-size: 14px;
+        width: 100%;
+        text-align: left;
     }
 
     .rpmanager .main .bottom .form .consent div{
