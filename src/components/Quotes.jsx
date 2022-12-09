@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/Quotes.css";
+import {Link } from "react-router-dom";
 
 const Quotes = () => {
   return (
@@ -18,7 +19,8 @@ const Quotes = () => {
             button to fill the form!
           </div>
 
-          <div className="button">Get QUOTES</div>
+          {/* <div className="button">Get QUOTES</div> */}
+           <Link to = "/contactus" className="button">Get QUOTES</Link>
         </div>
       </div>
     </div>

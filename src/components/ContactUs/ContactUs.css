@@ -74,7 +74,7 @@
 .contact-us .content3 .main .box .address .bottom{
     width: 27.7rem;
     height: 2.6rem;
-    
+    text-align: center;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
@@ -86,6 +86,7 @@
     
     /* caption */    
     color: #898B92
+    
 }
 
 /* phone */

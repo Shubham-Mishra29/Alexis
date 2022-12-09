@@ -41,7 +41,7 @@ const Footer = () => {
             <div className="bar"></div>
             <div className="content">
               <div>Call us at <a href="">800-123-4567</a></div>
-              <div>510 Kampong Bahru Rd Singapore 099446</div>
+              <div>7030 Ang Mo Kio Avenue 5 Northstar@AMK #06-43, 569880</div>
               <div><a href="">info@design.com</a></div>
             </div>            
           </div>

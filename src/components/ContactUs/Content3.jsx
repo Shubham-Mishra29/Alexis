@@ -14,7 +14,7 @@ const Content3 = () => {
                         </div>
                         <div className="heading">Address</div>
                     </div>
-                    <div className="bottom">510 Kampong Bahru Rd Singapore 099446</div>
+                    <div className="bottom">7030 Ang Mo Kio Avenue 5 Northstar@AMK #06-43, 569880</div>
                 </div>
             </div>
 

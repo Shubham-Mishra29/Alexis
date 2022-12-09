@@ -1,15 +1,15 @@
 import React from 'react'
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import { useState } from "react";
 import logo from "../assests/logo.png";
 import logomob from "../assests/logomob.png";
 import hamburger from "../assests/hamburger.png";
-import icon from "../assests/icon.png";
+// import icon from "../assests/icon.png";
 import phn from "../assests/phn.png";
 import {NavLink } from "react-router-dom";
 import '../style/Navbar.css';
 import ScrollToTop from './ScrollToTop';
-import Logo from './Logo';
+// import Logo from './Logo';
 import whatsapp from "../assests/whatsapp.png";
 
 
@@ -75,8 +75,8 @@ const Navbar = () => {
                   {/* <div className="nav"> */}
                   <div className="outer">
                     <div className='companylogo'>
-                      <img src={logo} />
-                      <img src={logomob} />
+                      <img src={logo} alt = " "/>
+                      <img src={logomob} alt = " "/>
                       {/* <Logo/> */}
                     </div>
 
@@ -101,7 +101,7 @@ const Navbar = () => {
                       <NavLink to="/careers">Careers </NavLink>
                       </li>
                       <li>
-                      <NavLink to="/contactus">ContactUs </NavLink>
+                      <NavLink to="/contactus">Contact Us </NavLink>
                       </li>
 
                     </div>
@@ -140,7 +140,7 @@ const Navbar = () => {
                               <NavLink to="/careers">Careers </NavLink>
                               </li>
                               <li>
-                              <NavLink to="/contactus">ContactUs </NavLink>
+                              <NavLink to="/contactus">Contact-Us</NavLink>
                               </li>
 
                               <a
