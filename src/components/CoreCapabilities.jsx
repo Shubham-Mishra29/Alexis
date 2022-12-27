@@ -62,7 +62,7 @@ const CoreCapabilities = () => {
               <div className="contentleft">
                 <div className="headingleft">International delivery</div>
                 <div className="textleft">
-                Browse, calculate and estimate easily for the lowest shipping rates to your overseas destination. 
+                  Lowest shipping rates to your overseas destination. 
                 </div>
               </div>
             </div>

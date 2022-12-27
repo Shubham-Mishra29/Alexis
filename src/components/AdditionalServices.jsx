@@ -22,7 +22,7 @@ const AdditionalServices = () => {
 
               <div className="left">
                 <i class="fa-sharp fa-solid fa-play fa-2x"> </i>
-                <div className="services">LAST MILE SERVICES</div>
+                <div className="services">Port Clearance</div>
               </div>
 
               <div className="right">
@@ -35,7 +35,7 @@ const AdditionalServices = () => {
 
               <div className="left">
                 <i class="fa-sharp fa-solid fa-play fa-2x"> </i>
-                <div className="services">STORE MANAGEMENT</div>
+                <div className="services">Local & Overseas Relocation</div>
               </div>   
 
               <div className="right">
@@ -49,7 +49,7 @@ const AdditionalServices = () => {
 
               <div className="left">
                 <i class="fa-sharp fa-solid fa-play fa-2x"> </i>
-                <div className="services">3PL / 5PL</div>
+                <div className="services">Manpower Supply</div>
               </div>   
 
               <div className="right">
@@ -80,7 +80,7 @@ const AdditionalServices = () => {
 
               <div className="left">
                 <i class="fa-sharp fa-solid fa-play fa-2x"> </i>
-                <div className="services">Dry Van</div>
+                <div className="services">Dry Van & Reefer</div>
               </div>   
 
               <div className="right">
