@@ -62,12 +62,31 @@
     cursor: pointer;
 }
 
+.clients .main .bottom .mySwiper-mobile{
+    display: none;
+}
+
 .clients .main .bottom .mySwiper .swiper-button-prev{
     /* display: none; */
 }
 
 .clients .main .bottom .mySwiper .swiper-button-next{
     /* display: none; */
+}
+
+.clients .main .bottom .mySwiper .swiper-slide .swiper-slide-duplicate .swiper-slide-prev{
+    width: 440.667px;
+    margin-right: 20px;    
+}
+
+.clients .main .bottom .mySwiper .swiper-slide .swiper-slide-active{
+    
+}
+.clients .main .bottom .mySwiper .swiper-slide .swiper-slide-prev{
+    
+}
+.clients .main .bottom .mySwiper .swiper-slide .swiper-slide-next{
+    
 }
 
 .clients .main .bottom .mySwiper .logo4{
@@ -127,6 +146,7 @@
         height: 80%;
         /* flex-wrap: nowrap; */
     }
+    
 
     .clients .main .top{
         width: 100%;
@@ -145,6 +165,14 @@
         line-height: 120%;
         letter-spacing: 0.02em;
         color: #252B42;        
+    }
+
+    .clients .main .bottom .mySwiper{
+        display: none;
+    }
+
+    .clients .main .bottom .mySwiper-mobile{
+        display: block;
     }
 
     .clients .main .bottom .logo1 img{

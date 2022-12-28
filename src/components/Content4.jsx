@@ -12,11 +12,16 @@ const Content4 = () => {
           </div>
 
           <div className="bottom">
-            Alexis Enterprise is currently operational in Land Transport,
+            {/* Alexis Enterprise is currently operational in Land Transport,
             Removals services and Shipping and postage services. We use powerful
             logistics tools to make tracking easier and make things work
             efficiently. We are all equally committed to deliver the service
-            that we commit.
+            that we commit. */}
+            Alexis Enterprise is a logistics company that offers a range of
+            services, including land transport, removals, shipping and postage,
+            and last mile delivery. We use advanced tools to efficiently track
+            and manage our operations and are dedicated to delivering
+            high-quality services to our clients
           </div>
         </div>
 

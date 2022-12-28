@@ -36,9 +36,13 @@ const CoreCapabilities = () => {
               </div>
 
               <div className="contentleft">
-                <div className="headingleft">Domestic delivery</div>
+                {/* <div className="headingleft">Domestic delivery</div> */}
+                <div className="headingleft">Last Mile Services</div>
                 <div className="textleft">
-                No matter where you’re shipping to, just book online and get it delivered 
+                  {/* No matter where you’re shipping to, just book online and get it delivered  */}
+                  Our last mile delivery services utilize a fleet of dry and
+                  freezer trucks to ensure that your goods are transported
+                  safely and efficiently to their final destination.
                 </div>
               </div>
             </div>
@@ -62,7 +66,7 @@ const CoreCapabilities = () => {
               <div className="contentleft">
                 <div className="headingleft">International delivery</div>
                 <div className="textleft">
-                  Lowest shipping rates to your overseas destination. 
+                  Lowest shipping rates to your overseas destination.
                 </div>
               </div>
             </div>
@@ -85,9 +89,11 @@ const CoreCapabilities = () => {
               </div>
 
               <div className="contentleft">
-                <div className="headingleft">Handy tools</div>
+                {/* <div className="headingleft">Handy tools</div> */}
+                <div className="headingleft">Freezer/Dry Warehousing </div>
                 <div className="textleft">
-                From weighing a parcel, calculating delivery rates, custom packaging, & parcel tracking, we have it all!
+                  Our freezer/dry warehousing facilities provide secure and
+                  temperature-controlled storage for a variety of goods
                 </div>
               </div>
             </div>
@@ -101,7 +107,8 @@ const CoreCapabilities = () => {
               <div className="contentright">
                 <div className="headingright">Ecommerce Integrations</div>
                 <div className="textright">
-                You may easily integrate your online store and store your products with us.
+                  You may easily integrate your online store and store your
+                  products with us.
                 </div>
               </div>
 
@@ -126,7 +133,8 @@ const CoreCapabilities = () => {
               <div className="contentright">
                 <div className="headingright">Bulk Parcels</div>
                 <div className="textright">
-                Sellers with large volume of shipments may easily upload orders
+                  Sellers with large volume of shipments may easily upload
+                  orders
                 </div>
               </div>
 
@@ -151,7 +159,8 @@ const CoreCapabilities = () => {
               <div className="contentright">
                 <div className="headingright">24*7 support</div>
                 <div className="textright">
-                We ensure to support your business. Our support team of freight experts is on-call 24 hours a day.
+                  We ensure to support your business. Our support services are
+                  designed to help your business stay on track.
                 </div>
               </div>
 

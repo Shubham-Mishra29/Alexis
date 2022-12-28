@@ -49,6 +49,30 @@ const Clients = () => {
             <SwiperSlide><div className="logo3"><img src={logo3} alt="" /></div></SwiperSlide>
             <SwiperSlide><div className="logo4"><img src={logo4} alt="" /></div></SwiperSlide>
             </Swiper>
+
+            <Swiper
+            slidesPerView={1}
+            spaceBetween={20}
+            loop={true}
+            pagination={{
+              clickable: true,
+            }}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            navigation={true}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper-mobile"
+          >
+            <SwiperSlide><div className="logo5"><img src={logo5} alt="" /></div></SwiperSlide>
+            <SwiperSlide><div className="logo6"><img src={logo6} alt="" /></div></SwiperSlide>
+            <SwiperSlide><div className="logo7"><img src={logo7} alt="" /></div></SwiperSlide>
+            <SwiperSlide><div className="logo1"><img src={logo1} alt="" /></div></SwiperSlide>
+            <SwiperSlide><div className="logo2"><img src={logo2} alt="" /></div></SwiperSlide>
+            <SwiperSlide><div className="logo3"><img src={logo3} alt="" /></div></SwiperSlide>
+            <SwiperSlide><div className="logo4"><img src={logo4} alt="" /></div></SwiperSlide>
+            </Swiper>
             </div>
         </div>
     </div>
