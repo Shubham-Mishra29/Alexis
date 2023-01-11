@@ -5,7 +5,7 @@ import Carousel from "../Carousel";
 import Clients from '../Clients';
 import Content4 from '../Content4';
 import CoreCapabilities from '../CoreCapabilities';
-import { countries } from "../Data";
+import { Data } from "../Data";
 import Footer from '../Footer';
 import Map from '../Map';
 import Quotes from '../Quotes';
@@ -16,7 +16,7 @@ import WhoWeAre from "../WhoWeAre";
 const Landingpage = () => {
   return (
     <div>
-      <Carousel images={countries} />
+      <Carousel images={Data} />
       <WhoWeAre/>
       <Content4/>
       <Quotes/>
